@@ -1,30 +1,21 @@
 <settings>
     <!-- *Default info -->
-    <group id="defaultInfo" title="@Strings.defaultInfoTitle" description="@Strings.defaultInfoDescription">
-        <setting propertyKey="@Properties.AppName" title="@Strings.AppName">
-            <settingConfig type="alphaNumeric" readonly="true" />
-        </setting>
-        
-        <setting propertyKey="@Properties.appVersion" title="@Strings.AppVersion">
-            <settingConfig type="alphaNumeric" readonly="true" />
-        </setting>
-    </group>
-
+    <setting propertyKey="@Properties.appVersion" title="@Strings.AppName">
+        <settingConfig type="alphaNumeric" readonly="true" />
+    </setting>
+    
     <!-- *Set Console data -->
-    <group id="consoleData" title="@Strings.consoleDataTitle">
-     <!-- description="@Strings.consoleDataDescription"> -->
-        <setting propertyKey="@Properties.consoleUserName" title="@Strings.consoleUserName">
-            <settingConfig type="alphaNumeric" required="true" />
-        </setting>
+    <setting propertyKey="@Properties.consoleUserName" title="@Strings.consoleUserName">
+        <settingConfig type="alphaNumeric" required="true" />
+    </setting>
 
-        <setting propertyKey="@Properties.consoleDeviceName" title="@Strings.consoleDeviceName">
-            <settingConfig type="alphaNumeric" required="true" />
-        </setting>
-        
-        <setting propertyKey="@Properties.consoleCommand" title="@Strings.consoleCommand">
-            <settingConfig type="alphaNumeric" />
-        </setting>
-    </group>
+    <setting propertyKey="@Properties.consoleDeviceName" title="@Strings.consoleDeviceName">
+        <settingConfig type="alphaNumeric" required="true" />
+    </setting>
+    
+    <setting propertyKey="@Properties.consoleCommand" title="@Strings.consoleCommand">
+        <settingConfig type="alphaNumeric" />
+    </setting>
 
     <!-- *Show Bluetooth status -->
     <setting propertyKey="@Properties.isBtShown" title="@Strings.isBtShown">

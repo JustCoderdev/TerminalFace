@@ -15,218 +15,217 @@
 <entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceApp.mc" id="6" lineNum="49" parent="globals/TerminalFaceApp" pc="268435584" symbol="updateSettings"/>
 <entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceApp.mc" id="6" lineNum="50" parent="globals/TerminalFaceApp" pc="268435588" symbol="updateSettings"/>
 <entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceApp.mc" id="6" lineNum="51" parent="globals/TerminalFaceApp" pc="268435618" symbol="updateSettings"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceApp.mc" id="7" lineNum="5" parent="globals/TerminalFaceApp" pc="268440340" symbol="&lt;init&gt;"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceApp.mc" id="7" lineNum="7" parent="globals/TerminalFaceApp" pc="268440358" symbol="&lt;init&gt;"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceApp.mc" id="7" lineNum="16" parent="globals/TerminalFaceApp" pc="268440447" symbol="&lt;init&gt;"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceApp.mc" id="7" lineNum="5" parent="globals/TerminalFaceApp" pc="268440340" symbol="&lt;init&gt;"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceApp.mc" id="7" lineNum="5" parent="globals/TerminalFaceApp" pc="268440031" symbol="&lt;init&gt;"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceApp.mc" id="7" lineNum="7" parent="globals/TerminalFaceApp" pc="268440049" symbol="&lt;init&gt;"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceApp.mc" id="7" lineNum="16" parent="globals/TerminalFaceApp" pc="268440138" symbol="&lt;init&gt;"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceApp.mc" id="7" lineNum="5" parent="globals/TerminalFaceApp" pc="268440031" symbol="&lt;init&gt;"/>
 <entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceApp.mc" id="8" lineNum="57" parent="globals" pc="268435680" symbol="getApp"/>
 <entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceApp.mc" id="8" lineNum="58" parent="globals" pc="268435692" symbol="getApp"/>
 <entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceBackground.mc" id="10" lineNum="8" parent="globals/Background" pc="268435709" symbol="initialize"/>
 <entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceBackground.mc" id="11" lineNum="13" parent="globals/Background" pc="268435714" symbol="draw"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceBackground.mc" id="12" lineNum="6" parent="globals/Background" pc="268440275" symbol="&lt;init&gt;"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceBackground.mc" id="12" lineNum="6" parent="globals/Background" pc="268440275" symbol="&lt;init&gt;"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="14" lineNum="17" parent="globals/TerminalFaceView" pc="268435719" symbol="initialize"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="14" lineNum="18" parent="globals/TerminalFaceView" pc="268435723" symbol="initialize"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="14" lineNum="19" parent="globals/TerminalFaceView" pc="268435741" symbol="initialize"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="15" lineNum="23" parent="globals/TerminalFaceView" pc="268435752" symbol="onLayout"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="15" lineNum="25" parent="globals/TerminalFaceView" pc="268435756" symbol="onLayout"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="16" lineNum="31" parent="globals/TerminalFaceView" pc="268435794" symbol="onShow"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="35" parent="globals/TerminalFaceView" pc="268435799" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="37" parent="globals/TerminalFaceView" pc="268435803" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="38" parent="globals/TerminalFaceView" pc="268435851" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="39" parent="globals/TerminalFaceView" pc="268435868" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="40" parent="globals/TerminalFaceView" pc="268435887" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="41" parent="globals/TerminalFaceView" pc="268435904" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="44" parent="globals/TerminalFaceView" pc="268435921" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="47" parent="globals/TerminalFaceView" pc="268435980" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="48" parent="globals/TerminalFaceView" pc="268435987" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="49" parent="globals/TerminalFaceView" pc="268435994" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="50" parent="globals/TerminalFaceView" pc="268436018" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="52" parent="globals/TerminalFaceView" pc="268436169" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="74" parent="globals/TerminalFaceView" pc="268436427" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="83" parent="globals/TerminalFaceView" pc="268436631" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="98" parent="globals/TerminalFaceView" pc="268436975" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="124" parent="globals/TerminalFaceView" pc="268437133" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="125" parent="globals/TerminalFaceView" pc="268437140" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="125" parent="globals/TerminalFaceView" pc="268437176" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="126" parent="globals/TerminalFaceView" pc="268437199" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="126" parent="globals/TerminalFaceView" pc="268437241" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="127" parent="globals/TerminalFaceView" pc="268437264" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="129" parent="globals/TerminalFaceView" pc="268437298" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="132" parent="globals/TerminalFaceView" pc="268437384" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="133" parent="globals/TerminalFaceView" pc="268437391" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="134" parent="globals/TerminalFaceView" pc="268437398" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="137" parent="globals/TerminalFaceView" pc="268437428" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="138" parent="globals/TerminalFaceView" pc="268437436" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="139" parent="globals/TerminalFaceView" pc="268437444" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="141" parent="globals/TerminalFaceView" pc="268437451" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="142" parent="globals/TerminalFaceView" pc="268437478" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="143" parent="globals/TerminalFaceView" pc="268437508" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="145" parent="globals/TerminalFaceView" pc="268437518" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="146" parent="globals/TerminalFaceView" pc="268437545" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="147" parent="globals/TerminalFaceView" pc="268437600" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="149" parent="globals/TerminalFaceView" pc="268437610" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="150" parent="globals/TerminalFaceView" pc="268437637" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="151" parent="globals/TerminalFaceView" pc="268437692" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="153" parent="globals/TerminalFaceView" pc="268437702" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="154" parent="globals/TerminalFaceView" pc="268437729" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="155" parent="globals/TerminalFaceView" pc="268437784" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="157" parent="globals/TerminalFaceView" pc="268437794" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="158" parent="globals/TerminalFaceView" pc="268437819" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="159" parent="globals/TerminalFaceView" pc="268437846" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="160" parent="globals/TerminalFaceView" pc="268437901" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="163" parent="globals/TerminalFaceView" pc="268437914" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="164" parent="globals/TerminalFaceView" pc="268437945" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="166" parent="globals/TerminalFaceView" pc="268437972" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="167" parent="globals/TerminalFaceView" pc="268438003" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="168" parent="globals/TerminalFaceView" pc="268438058" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="169" parent="globals/TerminalFaceView" pc="268438089" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="172" parent="globals/TerminalFaceView" pc="268438159" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="173" parent="globals/TerminalFaceView" pc="268438214" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="176" parent="globals/TerminalFaceView" pc="268438227" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="177" parent="globals/TerminalFaceView" pc="268438258" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="179" parent="globals/TerminalFaceView" pc="268438285" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="180" parent="globals/TerminalFaceView" pc="268438316" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="181" parent="globals/TerminalFaceView" pc="268438371" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="182" parent="globals/TerminalFaceView" pc="268438402" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="185" parent="globals/TerminalFaceView" pc="268438472" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="186" parent="globals/TerminalFaceView" pc="268438527" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="189" parent="globals/TerminalFaceView" pc="268438540" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="190" parent="globals/TerminalFaceView" pc="268438567" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="191" parent="globals/TerminalFaceView" pc="268438622" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="193" parent="globals/TerminalFaceView" pc="268438632" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="194" parent="globals/TerminalFaceView" pc="268438659" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="195" parent="globals/TerminalFaceView" pc="268438666" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="198" parent="globals/TerminalFaceView" pc="268438676" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="200" parent="globals/TerminalFaceView" pc="268438691" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="205" parent="globals/TerminalFaceView" pc="268438724" symbol="onUpdate"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="18" lineNum="211" parent="globals/TerminalFaceView" pc="268438745" symbol="onHide"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="19" lineNum="215" parent="globals/TerminalFaceView" pc="268438750" symbol="onExitSleep"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="20" lineNum="219" parent="globals/TerminalFaceView" pc="268438755" symbol="onEnterSleep"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="21" lineNum="8" parent="globals/TerminalFaceView" pc="268440294" symbol="&lt;init&gt;"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="21" lineNum="13" parent="globals/TerminalFaceView" pc="268440312" symbol="&lt;init&gt;"/>
-<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="21" lineNum="8" parent="globals/TerminalFaceView" pc="268440294" symbol="&lt;init&gt;"/>
-<entry filename="Rez" id="23" lineNum="2" parent="globals/Rez/Drawables" pc="268440559" symbol="&lt;init&gt;"/>
-<entry filename="Rez" id="24" lineNum="6" parent="globals/Rez/Fonts" pc="268440561" symbol="&lt;init&gt;"/>
-<entry filename="Rez" id="25" lineNum="8" parent="globals/Rez/JsonData" pc="268440563" symbol="&lt;init&gt;"/>
-<entry filename="Rez" id="26" lineNum="17" parent="globals/Rez/Layouts" pc="268438760" symbol="WatchFace"/>
-<entry filename="Rez" id="26" lineNum="19" parent="globals/Rez/Layouts" pc="268438772" symbol="WatchFace"/>
-<entry filename="Rez" id="26" lineNum="20" parent="globals/Rez/Layouts" pc="268438796" symbol="WatchFace"/>
-<entry filename="Rez" id="26" lineNum="21" parent="globals/Rez/Layouts" pc="268438959" symbol="WatchFace"/>
-<entry filename="Rez" id="26" lineNum="22" parent="globals/Rez/Layouts" pc="268439092" symbol="WatchFace"/>
-<entry filename="Rez" id="26" lineNum="23" parent="globals/Rez/Layouts" pc="268439225" symbol="WatchFace"/>
-<entry filename="Rez" id="26" lineNum="24" parent="globals/Rez/Layouts" pc="268439358" symbol="WatchFace"/>
-<entry filename="Rez" id="26" lineNum="25" parent="globals/Rez/Layouts" pc="268439491" symbol="WatchFace"/>
-<entry filename="Rez" id="26" lineNum="26" parent="globals/Rez/Layouts" pc="268439624" symbol="WatchFace"/>
-<entry filename="Rez" id="26" lineNum="27" parent="globals/Rez/Layouts" pc="268439757" symbol="WatchFace"/>
-<entry filename="Rez" id="26" lineNum="28" parent="globals/Rez/Layouts" pc="268439890" symbol="WatchFace"/>
-<entry filename="Rez" id="26" lineNum="29" parent="globals/Rez/Layouts" pc="268440023" symbol="WatchFace"/>
-<entry filename="Rez" id="26" lineNum="31" parent="globals/Rez/Layouts" pc="268440156" symbol="WatchFace"/>
-<entry filename="Rez" id="27" lineNum="10" parent="globals/Rez/Layouts" pc="268440562" symbol="&lt;init&gt;"/>
-<entry filename="Rez" id="28" lineNum="36" parent="globals/Rez/Menus" pc="268440560" symbol="&lt;init&gt;"/>
-<entry filename="Rez" id="29" lineNum="38" parent="globals/Rez/Strings" pc="268440564" symbol="&lt;init&gt;"/>
-<entry filename="Rez" id="30" lineNum="1" parent="globals/Rez" pc="268440540" symbol="&lt;init&gt;"/>
-<entry filename="Rez" id="30" lineNum="1" parent="globals/Rez" pc="268440540" symbol="&lt;init&gt;"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceBackground.mc" id="12" lineNum="6" parent="globals/Background" pc="268439406" symbol="&lt;init&gt;"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceBackground.mc" id="12" lineNum="6" parent="globals/Background" pc="268439406" symbol="&lt;init&gt;"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="14" lineNum="42" parent="globals/TerminalFaceView" pc="268435719" symbol="initialize"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="14" lineNum="43" parent="globals/TerminalFaceView" pc="268435723" symbol="initialize"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="14" lineNum="44" parent="globals/TerminalFaceView" pc="268435741" symbol="initialize"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="15" lineNum="48" parent="globals/TerminalFaceView" pc="268435752" symbol="onLayout"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="15" lineNum="50" parent="globals/TerminalFaceView" pc="268435756" symbol="onLayout"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="16" lineNum="56" parent="globals/TerminalFaceView" pc="268435794" symbol="onShow"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="60" parent="globals/TerminalFaceView" pc="268435799" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="62" parent="globals/TerminalFaceView" pc="268435803" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="63" parent="globals/TerminalFaceView" pc="268435851" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="64" parent="globals/TerminalFaceView" pc="268435868" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="65" parent="globals/TerminalFaceView" pc="268435887" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="66" parent="globals/TerminalFaceView" pc="268435904" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="69" parent="globals/TerminalFaceView" pc="268435921" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="72" parent="globals/TerminalFaceView" pc="268435980" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="73" parent="globals/TerminalFaceView" pc="268435987" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="74" parent="globals/TerminalFaceView" pc="268435994" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="75" parent="globals/TerminalFaceView" pc="268436018" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="77" parent="globals/TerminalFaceView" pc="268436169" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="83" parent="globals/TerminalFaceView" pc="268436427" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="90" parent="globals/TerminalFaceView" pc="268436597" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="91" parent="globals/TerminalFaceView" pc="268436604" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="91" parent="globals/TerminalFaceView" pc="268436640" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="92" parent="globals/TerminalFaceView" pc="268436663" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="92" parent="globals/TerminalFaceView" pc="268436705" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="93" parent="globals/TerminalFaceView" pc="268436728" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="95" parent="globals/TerminalFaceView" pc="268436762" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="96" parent="globals/TerminalFaceView" pc="268436848" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="97" parent="globals/TerminalFaceView" pc="268436855" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="98" parent="globals/TerminalFaceView" pc="268436862" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="101" parent="globals/TerminalFaceView" pc="268436892" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="102" parent="globals/TerminalFaceView" pc="268436900" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="103" parent="globals/TerminalFaceView" pc="268436908" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="105" parent="globals/TerminalFaceView" pc="268436915" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="106" parent="globals/TerminalFaceView" pc="268436942" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="107" parent="globals/TerminalFaceView" pc="268436972" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="109" parent="globals/TerminalFaceView" pc="268436982" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="110" parent="globals/TerminalFaceView" pc="268437009" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="111" parent="globals/TerminalFaceView" pc="268437064" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="113" parent="globals/TerminalFaceView" pc="268437074" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="114" parent="globals/TerminalFaceView" pc="268437101" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="115" parent="globals/TerminalFaceView" pc="268437156" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="117" parent="globals/TerminalFaceView" pc="268437166" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="118" parent="globals/TerminalFaceView" pc="268437193" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="119" parent="globals/TerminalFaceView" pc="268437248" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="121" parent="globals/TerminalFaceView" pc="268437258" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="122" parent="globals/TerminalFaceView" pc="268437283" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="123" parent="globals/TerminalFaceView" pc="268437310" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="124" parent="globals/TerminalFaceView" pc="268437365" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="127" parent="globals/TerminalFaceView" pc="268437378" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="128" parent="globals/TerminalFaceView" pc="268437409" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="130" parent="globals/TerminalFaceView" pc="268437436" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="131" parent="globals/TerminalFaceView" pc="268437467" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="132" parent="globals/TerminalFaceView" pc="268437522" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="133" parent="globals/TerminalFaceView" pc="268437553" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="136" parent="globals/TerminalFaceView" pc="268437623" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="137" parent="globals/TerminalFaceView" pc="268437678" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="140" parent="globals/TerminalFaceView" pc="268437691" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="141" parent="globals/TerminalFaceView" pc="268437722" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="143" parent="globals/TerminalFaceView" pc="268437749" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="144" parent="globals/TerminalFaceView" pc="268437780" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="145" parent="globals/TerminalFaceView" pc="268437835" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="146" parent="globals/TerminalFaceView" pc="268437866" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="149" parent="globals/TerminalFaceView" pc="268437936" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="150" parent="globals/TerminalFaceView" pc="268437991" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="153" parent="globals/TerminalFaceView" pc="268438004" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="154" parent="globals/TerminalFaceView" pc="268438031" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="155" parent="globals/TerminalFaceView" pc="268438086" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="157" parent="globals/TerminalFaceView" pc="268438096" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="158" parent="globals/TerminalFaceView" pc="268438123" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="159" parent="globals/TerminalFaceView" pc="268438130" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="162" parent="globals/TerminalFaceView" pc="268438140" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="170" parent="globals/TerminalFaceView" pc="268438155" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="171" parent="globals/TerminalFaceView" pc="268438182" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="17" lineNum="178" parent="globals/TerminalFaceView" pc="268438215" symbol="onUpdate"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="18" lineNum="184" parent="globals/TerminalFaceView" pc="268438236" symbol="onHide"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="19" lineNum="188" parent="globals/TerminalFaceView" pc="268438241" symbol="onExitSleep"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="20" lineNum="192" parent="globals/TerminalFaceView" pc="268438246" symbol="onEnterSleep"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="21" lineNum="8" parent="globals/TerminalFaceView" pc="268439425" symbol="&lt;init&gt;"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="21" lineNum="13" parent="globals/TerminalFaceView" pc="268439443" symbol="&lt;init&gt;"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="21" lineNum="23" parent="globals/TerminalFaceView" pc="268439653" symbol="&lt;init&gt;"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="21" lineNum="38" parent="globals/TerminalFaceView" pc="268440003" symbol="&lt;init&gt;"/>
+<entry filename="D:\\01 - PERSONALE\\TEO\\01 - PROGRAMMAZIONE\\Connect IQ\\TerminalFace\\source\\TerminalFaceView.mc" id="21" lineNum="8" parent="globals/TerminalFaceView" pc="268439425" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="23" lineNum="2" parent="globals/Rez/Drawables" pc="268440250" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="24" lineNum="6" parent="globals/Rez/Fonts" pc="268440252" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="25" lineNum="8" parent="globals/Rez/JsonData" pc="268440254" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="26" lineNum="17" parent="globals/Rez/Layouts" pc="268438251" symbol="WatchFace"/>
+<entry filename="Rez" id="26" lineNum="19" parent="globals/Rez/Layouts" pc="268438263" symbol="WatchFace"/>
+<entry filename="Rez" id="26" lineNum="20" parent="globals/Rez/Layouts" pc="268438287" symbol="WatchFace"/>
+<entry filename="Rez" id="26" lineNum="21" parent="globals/Rez/Layouts" pc="268438450" symbol="WatchFace"/>
+<entry filename="Rez" id="26" lineNum="22" parent="globals/Rez/Layouts" pc="268438543" symbol="WatchFace"/>
+<entry filename="Rez" id="26" lineNum="23" parent="globals/Rez/Layouts" pc="268438636" symbol="WatchFace"/>
+<entry filename="Rez" id="26" lineNum="24" parent="globals/Rez/Layouts" pc="268438729" symbol="WatchFace"/>
+<entry filename="Rez" id="26" lineNum="25" parent="globals/Rez/Layouts" pc="268438822" symbol="WatchFace"/>
+<entry filename="Rez" id="26" lineNum="26" parent="globals/Rez/Layouts" pc="268438915" symbol="WatchFace"/>
+<entry filename="Rez" id="26" lineNum="27" parent="globals/Rez/Layouts" pc="268439008" symbol="WatchFace"/>
+<entry filename="Rez" id="26" lineNum="28" parent="globals/Rez/Layouts" pc="268439101" symbol="WatchFace"/>
+<entry filename="Rez" id="26" lineNum="29" parent="globals/Rez/Layouts" pc="268439194" symbol="WatchFace"/>
+<entry filename="Rez" id="26" lineNum="31" parent="globals/Rez/Layouts" pc="268439287" symbol="WatchFace"/>
+<entry filename="Rez" id="27" lineNum="10" parent="globals/Rez/Layouts" pc="268440253" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="28" lineNum="36" parent="globals/Rez/Menus" pc="268440251" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="29" lineNum="38" parent="globals/Rez/Strings" pc="268440255" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="30" lineNum="1" parent="globals/Rez" pc="268440231" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="30" lineNum="1" parent="globals/Rez" pc="268440231" symbol="&lt;init&gt;"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
-<entry field="true" id="59" symbol="defaultInfoTitle"/>
 <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
 <entry field="true" id="11" symbol="appSetting"/>
 <entry id="4" module="true" symbol="globals/Rez/Menus"/>
 <entry id="10" object="true" symbol="TerminalFaceView"/>
 <entry id="8389683" method="true" symbol="onSettingsChanged"/>
-<entry field="true" id="32" symbol="AppVersion"/>
-<entry field="true" id="47" symbol="oct"/>
+<entry field="true" id="48" symbol="oct"/>
 <entry id="8388924" module="true" symbol="Gregorian"/>
 <entry id="9" object="true" symbol="TerminalFaceApp"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-<entry field="true" id="39" symbol="nov"/>
-<entry field="true" id="58" symbol="aug"/>
-<entry field="true" id="48" symbol="apr"/>
-<entry field="true" id="25" symbol="tue"/>
-<entry field="true" id="30" symbol="AppName"/>
-<entry field="true" id="12" symbol="sensorsData"/>
-<entry field="true" id="18" symbol="date"/>
-<entry field="true" id="55" symbol="flrsViewOption2"/>
-<entry field="true" id="57" symbol="flrsViewOption1"/>
-<entry field="true" id="54" symbol="flrsViewOption0"/>
+<entry field="true" id="40" symbol="nov"/>
+<entry field="true" id="57" symbol="aug"/>
+<entry field="true" id="49" symbol="apr"/>
+<entry field="true" id="27" symbol="tue"/>
+<entry field="true" id="32" symbol="AppName"/>
+<entry field="true" id="14" symbol="sensorsData"/>
+<entry field="true" id="20" symbol="date"/>
+<entry field="true" id="54" symbol="flrsViewOption2"/>
+<entry field="true" id="56" symbol="flrsViewOption1"/>
+<entry field="true" id="53" symbol="flrsViewOption0"/>
 <entry id="8" module="true" symbol="globals/Rez/Strings"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
 <entry field="true" id="8388912" symbol="steps"/>
-<entry field="true" id="50" symbol="flrsViewOption"/>
+<entry field="true" id="51" symbol="flrsViewOption"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
-<entry field="true" id="19" symbol="thu"/>
-<entry field="true" id="49" symbol="consoleCommand"/>
+<entry field="true" id="21" symbol="thu"/>
+<entry field="true" id="50" symbol="consoleCommand"/>
 <entry id="2" module="true" symbol="globals/Rez"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
-<entry field="true" id="29" symbol="mon"/>
-<entry field="true" id="28" symbol="sun"/>
+<entry field="true" id="31" symbol="mon"/>
+<entry field="true" id="30" symbol="sun"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389348" symbol="font"/>
-<entry id="16" module="true" symbol="Menus"/>
+<entry id="18" module="true" symbol="Menus"/>
 <entry id="8389275" method="true" symbol="getApp"/>
 <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
 <entry field="true" id="8389323" symbol="may"/>
-<entry field="true" id="45" symbol="mar"/>
+<entry field="true" id="46" symbol="mar"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
 <entry id="8389376" method="true" symbol="onEnterSleep"/>
-<entry field="true" id="43" symbol="fri"/>
+<entry field="true" id="44" symbol="fri"/>
 <entry field="true" id="8389063" symbol="identifier"/>
-<entry field="true" id="61" symbol="time"/>
+<entry field="true" id="59" symbol="time"/>
 <entry id="8389349" symbol="justification"/>
-<entry field="true" id="40" symbol="consoleUserName"/>
-<entry field="true" id="46" symbol="sep"/>
-<entry id="14" method="true" symbol="updateSettings"/>
-<entry field="true" id="51" symbol="sat"/>
+<entry field="true" id="41" symbol="consoleUserName"/>
+<entry field="true" id="47" symbol="sep"/>
+<entry id="16" method="true" symbol="updateSettings"/>
+<entry field="true" id="52" symbol="sat"/>
 <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
-<entry field="true" id="22" symbol="feb"/>
+<entry field="true" id="24" symbol="feb"/>
 <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-<entry field="true" id="37" symbol="floors"/>
-<entry field="true" id="38" symbol="stepViewOption2"/>
-<entry field="true" id="36" symbol="stepViewOption1"/>
-<entry field="true" id="34" symbol="stepViewOption0"/>
-<entry field="true" id="27" symbol="consoleDeviceName"/>
+<entry field="true" id="38" symbol="floors"/>
+<entry field="true" id="39" symbol="stepViewOption2"/>
+<entry field="true" id="37" symbol="stepViewOption1"/>
+<entry field="true" id="35" symbol="stepViewOption0"/>
+<entry field="true" id="13" symbol="monthArr"/>
+<entry field="true" id="29" symbol="consoleDeviceName"/>
 <entry id="8389377" method="true" symbol="onExitSleep"/>
 <entry id="8388644" module="true" symbol="System"/>
 <entry field="true" id="8391582" symbol="step"/>
-<entry field="true" id="52" symbol="defaultInfoDescription"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
-<entry field="true" id="56" symbol="connected"/>
-<entry field="true" id="26" symbol="stepViewOption"/>
-<entry field="true" id="53" symbol="consoleDataTitle"/>
+<entry field="true" id="55" symbol="connected"/>
+<entry field="true" id="28" symbol="stepViewOption"/>
 <entry id="8388640" module="true" symbol="Lang"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
 <entry id="8389068" method="true" symbol="draw"/>
-<entry field="true" id="17" symbol="LauncherIcon"/>
+<entry field="true" id="19" symbol="LauncherIcon"/>
 <entry id="8388610" symbol="statics"/>
 <entry id="8389123" method="true" symbol="onShow"/>
 <entry id="8389350" module="true" symbol="globals"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry id="8390146" module="true" object="true" symbol="Background"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="35" symbol="disconnected"/>
+<entry field="true" id="36" symbol="disconnected"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry field="true" id="23" symbol="jun"/>
-<entry field="true" id="20" symbol="jul"/>
-<entry field="true" id="13" symbol="appSettingKeys"/>
-<entry field="true" id="24" symbol="dec"/>
+<entry field="true" id="25" symbol="jun"/>
+<entry field="true" id="22" symbol="jul"/>
+<entry field="true" id="15" symbol="appSettingKeys"/>
+<entry field="true" id="26" symbol="dec"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8389281" method="true" symbol="onStop"/>
-<entry field="true" id="44" symbol="isBtShown"/>
-<entry field="true" id="31" symbol="l_hr"/>
+<entry field="true" id="45" symbol="isBtShown"/>
+<entry field="true" id="33" symbol="l_hr"/>
 <entry id="8389347" symbol="color"/>
-<entry field="true" id="60" symbol="flrs"/>
-<entry field="true" id="42" symbol="wed"/>
-<entry id="15" module="true" symbol="Layouts"/>
-<entry field="true" id="41" symbol="jan"/>
+<entry field="true" id="58" symbol="flrs"/>
+<entry field="true" id="43" symbol="wed"/>
+<entry field="true" id="12" symbol="dayArr"/>
+<entry id="17" module="true" symbol="Layouts"/>
+<entry field="true" id="42" symbol="jan"/>
 <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
-<entry field="true" id="21" symbol="conn"/>
+<entry field="true" id="23" symbol="conn"/>
 <entry id="8389125" method="true" symbol="onHide"/>
-<entry field="true" id="33" symbol="batt"/>
+<entry field="true" id="34" symbol="batt"/>
 <entry id="8388635" module="true" symbol="Application"/>
 </symbolTable>
 <localVars>
@@ -236,41 +235,39 @@
 <entry arg="true" endPc="268435718" name="dc" stackId="1" startPc="268435714"/>
 <entry arg="true" endPc="268435751" name="appSetting" stackId="1" startPc="268435719"/>
 <entry arg="true" endPc="268435793" name="dc" stackId="1" startPc="268435752"/>
-<entry endPc="268437198" name="i" stackId="14" startPc="268437176"/>
-<entry endPc="268437263" name="i" stackId="15" startPc="268437241"/>
-<entry endPc="268438723" name="i" stackId="23" startPc="268438691"/>
-<entry endPc="268438743" name="timeData" stackId="8" startPc="268435803"/>
-<entry endPc="268438743" name="sett" stackId="3" startPc="268435803"/>
-<entry endPc="268438743" name="labAll" stackId="21" startPc="268435803"/>
-<entry endPc="268438743" name="now" stackId="2" startPc="268435803"/>
-<entry endPc="268438743" name="CIndex" stackId="22" startPc="268435803"/>
-<entry endPc="268438743" name="time" stackId="6" startPc="268435803"/>
-<entry endPc="268438743" name="connData" stackId="16" startPc="268435803"/>
-<entry endPc="268438743" name="dayArr" stackId="10" startPc="268435803"/>
-<entry endPc="268438743" name="consoleData" stackId="7" startPc="268435803"/>
-<entry endPc="268438743" name="l_hrData" stackId="19" startPc="268435803"/>
-<entry endPc="268438743" name="labData" stackId="20" startPc="268435803"/>
-<entry endPc="268438743" name="stepData" stackId="17" startPc="268435803"/>
-<entry endPc="268438743" name="flrsData" stackId="18" startPc="268435803"/>
-<entry endPc="268438743" name="monthArr" stackId="11" startPc="268435803"/>
-<entry endPc="268438743" name="battData" stackId="13" startPc="268435803"/>
-<entry endPc="268438743" name="stat" stackId="5" startPc="268435803"/>
-<entry endPc="268438743" name="info" stackId="4" startPc="268435803"/>
-<entry endPc="268438743" name="timeZone" stackId="9" startPc="268435803"/>
-<entry endPc="268438743" name="dateData" stackId="12" startPc="268435803"/>
-<entry arg="true" endPc="268438744" name="dc" stackId="1" startPc="268435799"/>
-<entry endPc="268440272" name="rez_cmp_local_text_powLn" stackId="7" startPc="268438772"/>
-<entry endPc="268440272" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268438772"/>
-<entry endPc="268440272" name="rez_cmp_local_text_endLn" stackId="12" startPc="268438772"/>
-<entry endPc="268440272" name="rez_cmp_local_text_flrsLn" stackId="10" startPc="268438772"/>
-<entry endPc="268440272" name="rez_cmp_local_text_stepLn" stackId="9" startPc="268438772"/>
-<entry endPc="268440272" name="rez_cmp_local_custom_drawable_74269137253946874143" stackId="2" startPc="268438772"/>
-<entry endPc="268440272" name="rez_cmp_local_text_stLn" stackId="4" startPc="268438772"/>
-<entry endPc="268440272" name="rez_cmp_local_text_bpmLn" stackId="11" startPc="268438772"/>
-<entry endPc="268440272" name="rez_cmp_local_text_connLn" stackId="8" startPc="268438772"/>
-<entry endPc="268440272" name="rez_cmp_local_text_dateLn" stackId="6" startPc="268438772"/>
-<entry endPc="268440272" name="rez_cmp_local_text_timeLn" stackId="5" startPc="268438772"/>
-<entry arg="true" endPc="268440273" name="dc" stackId="1" startPc="268438760"/>
+<entry endPc="268436662" name="i" stackId="12" startPc="268436640"/>
+<entry endPc="268436727" name="i" stackId="13" startPc="268436705"/>
+<entry endPc="268438214" name="i" stackId="21" startPc="268438155"/>
+<entry endPc="268438234" name="consoleData" stackId="7" startPc="268435803"/>
+<entry endPc="268438234" name="now" stackId="2" startPc="268435803"/>
+<entry endPc="268438234" name="dateData" stackId="10" startPc="268435803"/>
+<entry endPc="268438234" name="info" stackId="4" startPc="268435803"/>
+<entry endPc="268438234" name="stepData" stackId="15" startPc="268435803"/>
+<entry endPc="268438234" name="time" stackId="6" startPc="268435803"/>
+<entry endPc="268438234" name="connData" stackId="14" startPc="268435803"/>
+<entry endPc="268438234" name="battData" stackId="11" startPc="268435803"/>
+<entry endPc="268438234" name="stat" stackId="5" startPc="268435803"/>
+<entry endPc="268438234" name="labData" stackId="18" startPc="268435803"/>
+<entry endPc="268438234" name="sett" stackId="3" startPc="268435803"/>
+<entry endPc="268438234" name="timeData" stackId="8" startPc="268435803"/>
+<entry endPc="268438234" name="CIndex" stackId="20" startPc="268435803"/>
+<entry endPc="268438234" name="flrsData" stackId="16" startPc="268435803"/>
+<entry endPc="268438234" name="timeZone" stackId="9" startPc="268435803"/>
+<entry endPc="268438234" name="l_hrData" stackId="17" startPc="268435803"/>
+<entry endPc="268438234" name="labAll" stackId="19" startPc="268435803"/>
+<entry arg="true" endPc="268438235" name="dc" stackId="1" startPc="268435799"/>
+<entry endPc="268439403" name="rez_cmp_local_text_powLn" stackId="7" startPc="268438263"/>
+<entry endPc="268439403" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268438263"/>
+<entry endPc="268439403" name="rez_cmp_local_text_endLn" stackId="12" startPc="268438263"/>
+<entry endPc="268439403" name="rez_cmp_local_text_flrsLn" stackId="10" startPc="268438263"/>
+<entry endPc="268439403" name="rez_cmp_local_text_stepLn" stackId="9" startPc="268438263"/>
+<entry endPc="268439403" name="rez_cmp_local_text_stLn" stackId="4" startPc="268438263"/>
+<entry endPc="268439403" name="rez_cmp_local_text_bpmLn" stackId="11" startPc="268438263"/>
+<entry endPc="268439403" name="rez_cmp_local_custom_drawable_40219351796566781919" stackId="2" startPc="268438263"/>
+<entry endPc="268439403" name="rez_cmp_local_text_connLn" stackId="8" startPc="268438263"/>
+<entry endPc="268439403" name="rez_cmp_local_text_dateLn" stackId="6" startPc="268438263"/>
+<entry endPc="268439403" name="rez_cmp_local_text_timeLn" stackId="5" startPc="268438263"/>
+<entry arg="true" endPc="268439404" name="dc" stackId="1" startPc="268438251"/>
 </localVars>
 <annotations>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -288,7 +285,6 @@
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="mon"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="l_hr"/>
-<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppVersion"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="batt"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="stepViewOption0"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="disconnected"/>
@@ -309,15 +305,12 @@
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="consoleCommand"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="flrsViewOption"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="sat"/>
-<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="defaultInfoDescription"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="steps"/>
-<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="consoleDataTitle"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="flrsViewOption0"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="flrsViewOption2"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="connected"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="flrsViewOption1"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="aug"/>
-<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="defaultInfoTitle"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="flrs"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="step"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="time"/>
@@ -326,14 +319,14 @@
 <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
 <dataEntry label="globals/Background" offset="166" parentId="globals" symbolId="Background" type="class"/>
 <dataEntry label="globals/TerminalFaceView" offset="221" parentId="globals" symbolId="TerminalFaceView" type="class"/>
-<dataEntry label="globals/TerminalFaceApp" offset="332" parentId="globals" symbolId="TerminalFaceApp" type="class"/>
-<dataEntry label="globals/Rez" offset="435" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry label="globals/Rez/Drawables" offset="514" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry label="globals/Rez/Menus" offset="553" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry label="globals/Rez/Fonts" offset="584" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry label="globals/Rez/Layouts" offset="615" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry label="globals/Rez/JsonData" offset="654" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry label="globals/Rez/Strings" offset="685" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/TerminalFaceApp" offset="348" parentId="globals" symbolId="TerminalFaceApp" type="class"/>
+<dataEntry label="globals/Rez" offset="451" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/Rez/Drawables" offset="530" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="569" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="600" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="631" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="670" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="701" parentId="Rez" symbolId="Strings" type="module"/>
 </dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" endPc="268435490" name="initialize" parent="TerminalFaceApp" startPc="268435456">
@@ -356,7 +349,7 @@
 <functionEntry accessMode="public" endPc="268435679" name="updateSettings" parent="TerminalFaceApp" startPc="268435584">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="protected" endPc="268440539" name="&lt;init&gt;" parent="TerminalFaceApp" startPc="268440340">
+<functionEntry accessMode="protected" endPc="268440230" name="&lt;init&gt;" parent="TerminalFaceApp" startPc="268440031">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" endPc="268435708" name="getApp" startPc="268435680">
@@ -369,7 +362,7 @@
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="protected" endPc="268440293" name="&lt;init&gt;" parent="Background" startPc="268440275">
+<functionEntry accessMode="protected" endPc="268439424" name="&lt;init&gt;" parent="Background" startPc="268439406">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" endPc="268435751" name="initialize" parent="TerminalFaceView" startPc="268435719">
@@ -383,45 +376,45 @@
 <functionEntry accessMode="public" endPc="268435798" name="onShow" parent="TerminalFaceView" startPc="268435794">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438744" name="onUpdate" parent="TerminalFaceView" startPc="268435799">
+<functionEntry accessMode="public" endPc="268438235" name="onUpdate" parent="TerminalFaceView" startPc="268435799">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438749" name="onHide" parent="TerminalFaceView" startPc="268438745">
+<functionEntry accessMode="public" endPc="268438240" name="onHide" parent="TerminalFaceView" startPc="268438236">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438754" name="onExitSleep" parent="TerminalFaceView" startPc="268438750">
+<functionEntry accessMode="public" endPc="268438245" name="onExitSleep" parent="TerminalFaceView" startPc="268438241">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438759" name="onEnterSleep" parent="TerminalFaceView" startPc="268438755">
+<functionEntry accessMode="public" endPc="268438250" name="onEnterSleep" parent="TerminalFaceView" startPc="268438246">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="protected" endPc="268440339" name="&lt;init&gt;" parent="TerminalFaceView" startPc="268440294">
+<functionEntry accessMode="protected" endPc="268440030" name="&lt;init&gt;" parent="TerminalFaceView" startPc="268439425">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="protected" endPc="268440559" name="&lt;init&gt;" parent="Drawables" startPc="268440559">
+<functionEntry accessMode="protected" endPc="268440250" name="&lt;init&gt;" parent="Drawables" startPc="268440250">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="protected" endPc="268440561" name="&lt;init&gt;" parent="Fonts" startPc="268440561">
+<functionEntry accessMode="protected" endPc="268440252" name="&lt;init&gt;" parent="Fonts" startPc="268440252">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="protected" endPc="268440563" name="&lt;init&gt;" parent="JsonData" startPc="268440563">
+<functionEntry accessMode="protected" endPc="268440254" name="&lt;init&gt;" parent="JsonData" startPc="268440254">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440273" name="WatchFace" parent="Layouts" startPc="268438760">
+<functionEntry accessMode="public" endPc="268439404" name="WatchFace" parent="Layouts" startPc="268438251">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="protected" endPc="268440562" name="&lt;init&gt;" parent="Layouts" startPc="268440562">
+<functionEntry accessMode="protected" endPc="268440253" name="&lt;init&gt;" parent="Layouts" startPc="268440253">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="protected" endPc="268440560" name="&lt;init&gt;" parent="Menus" startPc="268440560">
+<functionEntry accessMode="protected" endPc="268440251" name="&lt;init&gt;" parent="Menus" startPc="268440251">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="protected" endPc="268440564" name="&lt;init&gt;" parent="Strings" startPc="268440564">
+<functionEntry accessMode="protected" endPc="268440255" name="&lt;init&gt;" parent="Strings" startPc="268440255">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="protected" endPc="268440558" name="&lt;init&gt;" parent="Rez" startPc="268440540">
+<functionEntry accessMode="protected" endPc="268440249" name="&lt;init&gt;" parent="Rez" startPc="268440231">
 <documentation/>
 </functionEntry>
 </functions>

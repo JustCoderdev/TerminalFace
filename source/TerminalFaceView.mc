@@ -10,6 +10,31 @@ class TerminalFaceView extends WatchUi.WatchFace {
     // var UbuntuMono = null;
     var appSetting = null;
 
+    var dayArr = [
+            Rez.Strings.sun,
+            Rez.Strings.mon,
+            Rez.Strings.tue,
+            Rez.Strings.wed,
+            Rez.Strings.thu,
+            Rez.Strings.fri,
+            Rez.Strings.sat
+    ];
+    
+    var monthArr = [
+        Rez.Strings.jan,
+        Rez.Strings.feb,
+        Rez.Strings.mar,
+        Rez.Strings.apr,
+        Rez.Strings.may,
+        Rez.Strings.jun,
+        Rez.Strings.jul,
+        Rez.Strings.aug,
+        Rez.Strings.sep,
+        Rez.Strings.oct,
+        Rez.Strings.nov,
+        Rez.Strings.dec
+    ];
+
     var sensorsData = {
         "heartRate" => 0,
     };
@@ -45,7 +70,7 @@ class TerminalFaceView extends WatchUi.WatchFace {
         
         //! TO IMPLEMENT TIMEZONE
         var timeData = ""; //"02:15:55 MDT"; "2:15:55 PM MDT"
-        var timeZone = "UTC";
+        var timeZone = ""; // UTC
         if (System.getDeviceSettings().is24Hour) {
             timeData = Lang.format("$1$:$2$:$3$ $4$", [time.hour < 12 ? "0" + time.hour : time.hour, time.min.format("%02d"), time.sec.format("%02d"), timeZone]);
         } else {
@@ -54,72 +79,13 @@ class TerminalFaceView extends WatchUi.WatchFace {
             : [ time.hour - 12, time.min.format("%02d"), time.sec.format("%02d"), "PM", timeZone]
             );
         }
-
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        var dayArr = [
-            Rez.Strings.sun,
-            Rez.Strings.mon,
-            Rez.Strings.tue,
-            Rez.Strings.wed,
-            Rez.Strings.thu,
-            Rez.Strings.fri,
-            Rez.Strings.sat
-        ];
-        var monthArr = [
-            Rez.Strings.jan,
-            Rez.Strings.feb,
-            Rez.Strings.mar,
-            Rez.Strings.apr,
-            Rez.Strings.may,
-            Rez.Strings.jun,
-            Rez.Strings.jul,
-            Rez.Strings.aug,
-            Rez.Strings.sep,
-            Rez.Strings.oct,
-            Rez.Strings.nov,
-            Rez.Strings.dec
-        ];
-		
         var dateData = Lang.format("$1$ $2$ $3$ $4$", [
             WatchUi.loadResource(dayArr[now.day_of_week - 1]),
             WatchUi.loadResource(monthArr[now.month - 1]),
             now.day.toNumber(),
             now.year.toNumber(),
         ]);
-        // "Thu Oct 11 2018"; // "Gio Ott 11 2018"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         var battData = "[";
         for (var i = 0; i < stat.battery.toNumber()/10; i++) { battData += "#"; }
@@ -127,8 +93,6 @@ class TerminalFaceView extends WatchUi.WatchFace {
         battData += "] " + stat.battery.toNumber() + " %";
 
         var connData = sett.phoneConnected ? WatchUi.loadResource(Rez.Strings.connected) : WatchUi.loadResource(Rez.Strings.disconnected);
-    
-
         var stepData = "";
         var flrsData = "";
         var l_hrData = sensorsData.get("heartRate") + " bpm";
@@ -196,8 +160,18 @@ class TerminalFaceView extends WatchUi.WatchFace {
 
         //* SET PROPERTYES
         for (var i = 0; i < CIndex; i++) {
+            // var height = sett.screenHeight / (CIndex + 3) * i;
+            // var padding_1p = sett.screenWidth / 100;
+    		// var totalWidth = dc.getTextWidthInPixels(labData[i], Graphics.FONT_XTINY);
+	    	// var x = halfDCWidth - (totalWidth / 2);
+
             // labAll[i].setFont(UbuntuMono);
+
+            labAll[i].setFont(Graphics.FONT_XTINY);
             labAll[i].setText(labData[i]);
+            labAll[i].setLocation(x, y);
+
+            // labAll[i].setJustification(Graphics.TEXT_JUSTIFY_LEFT);
             // labAll[i].setColor(getApp().getProperty("ForegroundColor") as Number);
         }
 

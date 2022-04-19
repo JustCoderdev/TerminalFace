@@ -1,14 +1,6 @@
 <strings>
     <!--* Settings -->
-    <string id="defaultInfoTitle">App Information</string>
-    <string id="defaultInfoDescription">placeholder description</string>
-
-    <string id="consoleDataTitle">Console customization</string>
-    <!-- <string id="consoleDataDescription">placeholder description</string> -->
-
-
     <string id="AppName">TerminalFace</string>
-    <string id="AppVersion">App Version</string>
 
     <string id="consoleUserName">Name displayed as the device current account</string>
     <string id="consoleCommand">Command displayed that 'caused' the info to be shown</string>
