@@ -159,17 +159,27 @@ class TerminalFaceView extends WatchUi.WatchFace {
         CIndex++;
 
         //* SET PROPERTYES
-        for (var i = 0; i < CIndex; i++) {
-            // var height = sett.screenHeight / (CIndex + 3) * i;
-            // var padding_1p = sett.screenWidth / 100;
-    		// var totalWidth = dc.getTextWidthInPixels(labData[i], Graphics.FONT_XTINY);
-	    	// var x = halfDCWidth - (totalWidth / 2);
+        for (var i = 0; i <= CIndex; i++) {
+            var spaceA = dc.getTextWidthInPixels(labData[2], Graphics.FONT_XTINY);   //date = 7 + 15
+            var spaceB = dc.getTextWidthInPixels(labData[3], Graphics.FONT_XTINY);   //batt = 7 + 17 o 18
+            var biggestSpace = spaceA > spaceB ? spaceA : spaceB;
+            var resultSpace = sett.screenWidth - biggestSpace < 0 ? 0 : (sett.screenWidth - biggestSpace) / 2;
+            
+            //! SHOULD CHANGE FONT BUT NAH
+            // batt  0% -> 49% = Ok (date is bigger) 
+            // batt 50% -> 69% = Aa (battery is bigger but doesn't clip)
+            // batt 70% -> ... = Not fine (x = 0 to avoid negative x)
 
-            // labAll[i].setFont(UbuntuMono);
-
-            labAll[i].setFont(Graphics.FONT_XTINY);
-            labAll[i].setText(labData[i]);
-            labAll[i].setLocation(x, y);
+            if ( i != 0 ) {
+                i--;
+                labAll[i].setFont(Graphics.FONT_XTINY); //*UbuntuMono
+                labAll[i].setText(labData[i]);
+                labAll[i].setLocation( 
+                    resultSpace,
+                    (((sett.screenHeight - dc.getTextDimensions("[", Graphics.FONT_XTINY)[1] * CIndex) / (CIndex + 2)) + dc.getTextDimensions("[", Graphics.FONT_XTINY)[1]) * ( i )
+                );
+                i++;
+            }
 
             // labAll[i].setJustification(Graphics.TEXT_JUSTIFY_LEFT);
             // labAll[i].setColor(getApp().getProperty("ForegroundColor") as Number);

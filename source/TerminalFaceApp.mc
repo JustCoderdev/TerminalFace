@@ -19,7 +19,7 @@ class TerminalFaceApp extends Application.AppBase {
         "consoleDeviceName",
         "isBtShown",
         "stepViewOption",
-        "flrsViewOption"
+        "flrsViewOption",
     ];
 
     function initialize() {
