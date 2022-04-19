@@ -1,0 +1,18 @@
+<properties>
+    <property id="AppName" type="string">TerminalFace</property>
+    <property id="appVersion" type="string">0.1.0</property>
+
+    <property id="consoleUserName" type="string">Jp</property>
+    <property id="consoleCommand" type="string">now</property>
+    <property id="consoleDeviceName" type="string">watch</property>
+
+    <!-- <property id="isBtShown" type="boolean">false</property>
+
+    <property id="stepViewOption" type="number">1</property>
+    <property id="flrsViewOption" type="number">0</property> -->
+
+    <property id="isBtShown" type="boolean">true</property>
+
+    <property id="stepViewOption" type="number">2</property>
+    <property id="flrsViewOption" type="number">2</property>
+</properties>

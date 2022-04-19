@@ -1,0 +1,67 @@
+<strings>
+    <!--* Settings -->
+    <string id="defaultInfoTitle">App Information</string>
+    <string id="defaultInfoDescription">placeholder description</string>
+
+    <string id="consoleDataTitle">Console customization</string>
+    <!-- <string id="consoleDataDescription">placeholder description</string> -->
+
+
+    <string id="AppName">TerminalFace</string>
+    <string id="AppVersion">App Version</string>
+
+    <string id="consoleUserName">Name displayed as the device current account</string>
+    <string id="consoleCommand">Command displayed that 'caused' the info to be shown</string>
+    <string id="consoleDeviceName">The name of the device to display</string>
+
+    <string id="isBtShown">Show the bluetooth line</string>
+
+    <string id="stepViewOption">Select the amount of step data that is displayed</string>
+    <string id="stepViewOption0">Don't display step data</string>
+    <string id="stepViewOption1">Display the step count</string>
+    <string id="stepViewOption2">Display the step count and the step goal</string>
+    
+    <string id="flrsViewOption">Select the amount of floors data that is displayed</string>
+    <string id="flrsViewOption0">Don't display floors data</string>
+    <string id="flrsViewOption1">Display the floors count</string>
+    <string id="flrsViewOption2">Display the floors count and the floors goal</string>
+    
+    <!--* UI -->
+    <string id="connected">Connected</string>
+    <string id="disconnected">Not Connected</string>
+
+    <string id="steps">steps</string>
+    <string id="floors">floors</string>
+    
+    <!--* ID -->
+    <string id="time">TIME</string>
+    <string id="date">DATE</string>
+    <string id="batt">BATT</string>
+    <string id="conn">CONN</string>
+    <string id="step">STEP</string>
+    <string id="flrs">FLRS</string>
+    <string id="l_hr">L_HR</string>
+
+    <!--* DATE -->
+	<string id="sun">Sun</string>
+	<string id="mon">Mon</string>
+	<string id="tue">Tue</string>
+	<string id="wed">Wed</string>
+	<string id="thu">Thu</string>
+	<string id="fri">Fri</string>
+	<string id="sat">Sat</string>
+
+	<string id="jan">Jan</string>
+	<string id="feb">Feb</string>
+	<string id="mar">Mar</string>
+	<string id="apr">Apr</string>
+	<string id="may">May</string>
+	<string id="jun">Jun</string>
+	<string id="jul">Jul</string>
+	<string id="aug">Aug</string>
+	<string id="sep">Sep</string>
+	<string id="oct">Oct</string>
+	<string id="nov">Nov</string>
+	<string id="dec">Dec</string>
+
+</strings>

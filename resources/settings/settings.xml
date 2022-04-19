@@ -1,0 +1,51 @@
+<settings>
+    <!-- *Default info -->
+    <group id="defaultInfo" title="@Strings.defaultInfoTitle" description="@Strings.defaultInfoDescription">
+        <setting propertyKey="@Properties.AppName" title="@Strings.AppName">
+            <settingConfig type="alphaNumeric" readonly="true" />
+        </setting>
+        
+        <setting propertyKey="@Properties.appVersion" title="@Strings.AppVersion">
+            <settingConfig type="alphaNumeric" readonly="true" />
+        </setting>
+    </group>
+
+    <!-- *Set Console data -->
+    <group id="consoleData" title="@Strings.consoleDataTitle">
+     <!-- description="@Strings.consoleDataDescription"> -->
+        <setting propertyKey="@Properties.consoleUserName" title="@Strings.consoleUserName">
+            <settingConfig type="alphaNumeric" required="true" />
+        </setting>
+
+        <setting propertyKey="@Properties.consoleDeviceName" title="@Strings.consoleDeviceName">
+            <settingConfig type="alphaNumeric" required="true" />
+        </setting>
+        
+        <setting propertyKey="@Properties.consoleCommand" title="@Strings.consoleCommand">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+    </group>
+
+    <!-- *Show Bluetooth status -->
+    <setting propertyKey="@Properties.isBtShown" title="@Strings.isBtShown">
+        <settingConfig type="boolean" />
+    </setting>
+
+    <!-- *Show step / step goal -->
+    <setting propertyKey="@Properties.stepViewOption" title="@Strings.stepViewOption">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.stepViewOption0</listEntry>
+            <listEntry value="1">@Strings.stepViewOption1</listEntry>
+            <listEntry value="2">@Strings.stepViewOption2</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <!-- *Show stair / stair goal -->
+    <setting propertyKey="@Properties.flrsViewOption" title="@Strings.flrsViewOption">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.flrsViewOption0</listEntry>
+            <listEntry value="1">@Strings.flrsViewOption1</listEntry>
+            <listEntry value="2">@Strings.flrsViewOption2</listEntry>
+        </settingConfig>
+    </setting>
+</settings>
