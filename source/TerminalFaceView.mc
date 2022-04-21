@@ -86,9 +86,9 @@ class TerminalFaceView extends WatchUi.WatchFace {
         ]);
 
         var battData = "[";
-        var battLvl = (stat.battery + .5).toNumber() / 10; // da 0 a 10
-        for (var i = 0; i < battLvl; i++) { battData += "#"; }
-        for (var i = 0; i < 10 - battLvl; i++) { battData += battLvl != 10 ? "." : ""; }
+        var battLvl = (stat.battery + 0.5).toNumber(); // da 0 a 10
+        for (var i = 0; i < battLvl / 10; i++) { battData += "#"; }
+        for (var i = 0; i < 10 - battLvl / 10; i++) { battData += battLvl / 10 != 10 ? "." : ""; }
         battData += "] " + battLvl + " %";
 
         var connData = sett.phoneConnected ? WatchUi.loadResource(Rez.Strings.connected) : WatchUi.loadResource(Rez.Strings.disconnected);
