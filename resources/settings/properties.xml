@@ -1,11 +1,15 @@
 <properties>
-    <property id="appVersion" type="string">0.2.0</property>
+    <property id="appVersion" type="string">0.3.0</property>
 
-    <property id="consoleUserName" type="string">Jp</property>
+    <property id="isConsoleDetailShown" type="boolean">true</property>
+    <property id="isConsoleLabelShown" type="boolean">true</property>
+
+    <property id="consoleUserName" type="string">Jc</property>
     <property id="consoleCommand" type="string">now</property>
     <property id="consoleDeviceName" type="string">watch</property>
 
     <property id="isBtShown" type="boolean">false</property>
+    <property id="isHRShown" type="boolean">false</property>
 
     <property id="stepViewOption" type="number">1</property>
     <property id="flrsViewOption" type="number">0</property>

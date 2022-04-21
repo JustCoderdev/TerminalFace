@@ -5,21 +5,27 @@ import Toybox.WatchUi;
 class TerminalFaceApp extends Application.AppBase {
     
     var appSetting = {
-        "consoleUserName" => "Jp",
-        "consoleCommand" => "now",
+        "isConsoleDetailShown" => true,
+        "isConsoleLabelShown" => true,
         "consoleDeviceName" => "user",
-        "isBtShown" => false,
-        "stepViewOption" => 0,
+        "consoleUserName" => "Jc",
+        "consoleCommand" => "now",
+        "stepViewOption" => 1,
         "flrsViewOption" => 0,
+        "isBtShown" => false,
+        "isHRShown" => true,
     };
 
     var appSettingKeys = [
+        "isConsoleDetailShown",
+        "isConsoleLabelShown",
+        "consoleDeviceName",
         "consoleUserName",
         "consoleCommand",
-        "consoleDeviceName",
-        "isBtShown",
         "stepViewOption",
         "flrsViewOption",
+        "isBtShown",
+        "isHRShown",
     ];
 
     function initialize() {

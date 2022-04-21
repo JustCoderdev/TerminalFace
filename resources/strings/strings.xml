@@ -2,21 +2,26 @@
     <!--* Settings -->
     <string id="AppName">TerminalFace</string>
 
-    <string id="consoleUserName">Name displayed as the device current account</string>
-    <string id="consoleCommand">Command displayed that 'caused' the info to be shown</string>
-    <string id="consoleDeviceName">The name of the device to display</string>
+    <string id="consoleGroupTitle">Console Details</string>
+    <string id="isConsoleDetailShown">Show the console details (ex. Jc@watch:~ $ now)</string>
+    <string id="isConsoleLabelShown">Show the console themed labels (ex. [TIME]...)</string>
+
+    <string id="consoleUserName">Account name (ex. ...@watch:~ $ now)</string>
+    <string id="consoleDeviceName">Device name (ex. Jc@...:~ $ now)</string>
+    <string id="consoleCommand">Command in the terminal (ex. Jc@watch:~ $ ...)</string>
 
     <string id="isBtShown">Show the bluetooth line</string>
+    <string id="isHRShown">Show the heart beat line [WIP]</string>
 
-    <string id="stepViewOption">Select the amount of step data that is displayed</string>
-    <string id="stepViewOption0">Don't display step data</string>
-    <string id="stepViewOption1">Display the step count</string>
-    <string id="stepViewOption2">Display the step count and the step goal</string>
+    <string id="stepViewOption">Select the amount of step data to display</string>
+    <string id="stepViewOption0">Don't display</string>
+    <string id="stepViewOption1">Step count</string>
+    <string id="stepViewOption2">Step count and goal</string>
     
-    <string id="flrsViewOption">Select the amount of floors data that is displayed</string>
-    <string id="flrsViewOption0">Don't display floors data</string>
-    <string id="flrsViewOption1">Display the floors count</string>
-    <string id="flrsViewOption2">Display the floors count and the floors goal</string>
+    <string id="flrsViewOption">Select the amount of floors data that to display</string>
+    <string id="flrsViewOption0">Don't display</string>
+    <string id="flrsViewOption1">Floors count</string>
+    <string id="flrsViewOption2">Floors count and goal</string>
     
     <!--* UI -->
     <string id="connected">Connected</string>
@@ -55,5 +60,4 @@
 	<string id="oct">Oct</string>
 	<string id="nov">Nov</string>
 	<string id="dec">Dec</string>
-
 </strings>

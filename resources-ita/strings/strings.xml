@@ -2,21 +2,26 @@
     <!--* Settings -->
     <string id="AppName">TerminalFace</string>
 
-    <string id="consoleUserName">Il nome visualizzato come account corrente del dispositivo</string>
-    <string id="consoleCommand">Il comando che viene visualizzato che ha "causato" la visualizzazione dei dati</string>
-    <string id="consoleDeviceName">Il nome del dispositivo che verra visualizzato</string>
+    <string id="consoleGroupTitle">Dettagli della console</string>
+    <string id="isConsoleDetailShown">Mostra i dettagli tipici di una console (es. Jc@watch:~ $ now)</string>
+    <string id="isConsoleLabelShown">Mostra le etichette tipiche di una console (es. [ORA]...)</string>
+
+    <string id="consoleUserName">Il nome dell account (es. ...@watch:~ $ now)</string>
+    <string id="consoleDeviceName">Il nome del dispositivo (es. Jc@...:~ $ now)</string>
+    <string id="consoleCommand">Il comando nel terminale (es. Jc@watch:~ $ ...)</string>
 
     <string id="isBtShown">Mostra la riga sulle informazioni del bluetooth</string>
+    <string id="isHRShown">Mostra la riga che mostra il battito cardiaco [WIP]</string>
 
-    <string id="stepViewOption">Seleziona la quantità di dati sui passi visualizzati</string>
+    <string id="stepViewOption">Seleziona la quantità di dati sui passi da visualizzare</string>
     <string id="stepViewOption0">Non mostrare alcun dato</string>
-    <string id="stepViewOption1">Mostra la conta dei passi</string>
-    <string id="stepViewOption2">Mostra la conta dei passi e l'obbiettivo corrente</string>
+    <string id="stepViewOption1">Conta dei passi</string>
+    <string id="stepViewOption2">Conta dei passi e obbiettivo</string>
     
-    <string id="flrsViewOption">Seleziona la quantità di dati sui piani visualizzati</string>
+    <string id="flrsViewOption">Seleziona la quantità di dati sui piani da visualizzare</string>
     <string id="flrsViewOption0">Non mostrare alcun dato</string>
-    <string id="flrsViewOption1">Mostra la conta dei piani</string>
-    <string id="flrsViewOption2">Mostra la conta dei piani e l'obbiettivo corrente</string>
+    <string id="flrsViewOption1">Conta dei piani</string>
+    <string id="flrsViewOption2">Conta dei piani e obbiettivo</string>
 
     <!--* UI -->
     <string id="connected">Connesso</string>
@@ -26,13 +31,13 @@
     <string id="floors">piani</string>
 
     <!--* ID -->
-    <string id="time">TIME</string>
-    <string id="date">DATE</string>
-    <string id="batt">BATT</string>
-    <string id="conn">CONN</string>
-    <string id="step">STEP</string>
-    <string id="flrs">FLRS</string>
-    <string id="l_hr">L_HR</string>
+    <string id="time">ORA</string>
+    <string id="date">DAT</string>
+    <string id="batt">BAT</string>
+    <string id="conn">CON</string>
+    <string id="step">PAS</string>
+    <string id="flrs">PIA</string>
+    <string id="l_hr">BPM</string>
 
     <!--* DATE -->
 	<string id="sun">Dom</string>
@@ -55,5 +60,4 @@
 	<string id="oct">Ott</string>
 	<string id="nov">Nov</string>
 	<string id="dec">Dic</string>
-
 </strings>

@@ -4,21 +4,35 @@
         <settingConfig type="alphaNumeric" readonly="true" />
     </setting>
     
-    <!-- *Set Console data -->
-    <setting propertyKey="@Properties.consoleUserName" title="@Strings.consoleUserName">
-        <settingConfig type="alphaNumeric" required="true" />
-    </setting>
+    <!-- *Set Console detail -->
+    <group id="consoleGroup" title="@Strings.consoleGroupTitle">
+        <setting propertyKey="@Properties.isConsoleDetailShown" title="@Strings.isConsoleDetailShown">
+            <settingConfig type="boolean" />
+        </setting>
 
-    <setting propertyKey="@Properties.consoleDeviceName" title="@Strings.consoleDeviceName">
-        <settingConfig type="alphaNumeric" required="true" />
-    </setting>
-    
-    <setting propertyKey="@Properties.consoleCommand" title="@Strings.consoleCommand">
-        <settingConfig type="alphaNumeric" />
-    </setting>
+        <setting propertyKey="@Properties.isConsoleLabelShown" title="@Strings.isConsoleLabelShown">
+            <settingConfig type="boolean" />
+        </setting>
 
-    <!-- *Show Bluetooth status -->
+        <setting propertyKey="@Properties.consoleUserName" title="@Strings.consoleUserName">
+            <settingConfig type="alphaNumeric" required="true" />
+        </setting>
+
+        <setting propertyKey="@Properties.consoleDeviceName" title="@Strings.consoleDeviceName">
+            <settingConfig type="alphaNumeric" required="true" />
+        </setting>
+        
+        <setting propertyKey="@Properties.consoleCommand" title="@Strings.consoleCommand">
+            <settingConfig type="alphaNumeric" />
+        </setting>
+    </group>
+
+    <!-- *Show Bluetooth / isHRShown status -->
     <setting propertyKey="@Properties.isBtShown" title="@Strings.isBtShown">
+        <settingConfig type="boolean" />
+    </setting>
+
+    <setting propertyKey="@Properties.isHRShown" title="@Strings.isHRShown">
         <settingConfig type="boolean" />
     </setting>
 

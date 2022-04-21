@@ -9,15 +9,16 @@ class TerminalFaceView extends WatchUi.WatchFace {
 
     // var UbuntuMono = null;
     var appSetting = null;
+    var isSleeping = false;
 
     var dayArr = [
-            Rez.Strings.sun,
-            Rez.Strings.mon,
-            Rez.Strings.tue,
-            Rez.Strings.wed,
-            Rez.Strings.thu,
-            Rez.Strings.fri,
-            Rez.Strings.sat
+        Rez.Strings.sun,
+        Rez.Strings.mon,
+        Rez.Strings.tue,
+        Rez.Strings.wed,
+        Rez.Strings.thu,
+        Rez.Strings.fri,
+        Rez.Strings.sat
     ];
     
     var monthArr = [
@@ -54,12 +55,13 @@ class TerminalFaceView extends WatchUi.WatchFace {
     //? the state of this View and prepare it to be shown. This includes
     //? loading resources into memory.
     function onShow() as Void {
+        WatchUi.requestUpdate();
     }
 
     //? Update the view
     function onUpdate(dc as Dc) as Void {
         //* Lib
-        var now = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
+        var now = Gregorian.info(Time.today(), Time.FORMAT_SHORT);
         var sett = System.getDeviceSettings();
         var info = ActivityMonitor.getInfo();
         var stat = System.getSystemStats();
@@ -68,29 +70,26 @@ class TerminalFaceView extends WatchUi.WatchFace {
         //* Data
         var consoleData = appSetting.get("consoleUserName") + "@" + appSetting.get("consoleDeviceName") + ":~ $ ";
         
-        //! TO IMPLEMENT TIMEZONE
-        var timeData = ""; //"02:15:55 MDT"; "2:15:55 PM MDT"
-        var timeZone = ""; // UTC
-        if (System.getDeviceSettings().is24Hour) {
-            timeData = Lang.format("$1$:$2$:$3$ $4$", [time.hour < 12 ? "0" + time.hour : time.hour, time.min.format("%02d"), time.sec.format("%02d"), timeZone]);
-        } else {
-            timeData = Lang.format("$1$:$2$:$3$ $4$ $5$", time.hour < 13
-            ? [ time.hour, time.min.format("%02d"), time.sec.format("%02d"), "AM", timeZone ]
-            : [ time.hour - 12, time.min.format("%02d"), time.sec.format("%02d"), "PM", timeZone]
-            );
-        }
+        var timeZone = ""; // UTC //! TO IMPLEMENT TIMEZONE
+        var timeData = sett.is24Hour    //"02:15:55 MDT"; "2:15:55 PM MDT"
+        ? Lang.format("$1$:$2$$3$     $4$", [time.hour < 10 ? "0" + time.hour : time.hour, time.min.format("%02d"), isSleeping ? "   " : ":" + time.sec.format("%02d"), timeZone])
+        : Lang.format("$1$:$2$$3$ $4$ $5$", time.hour < 13
+            ? [ time.hour, time.min.format("%02d"), isSleeping ? "   " : ":" + time.sec.format("%02d"), "AM", timeZone ]
+            : [ time.hour - 12, time.min.format("%02d"), isSleeping ? "   " : ":" + time.sec.format("%02d"), "PM", timeZone]
+        );
         
         var dateData = Lang.format("$1$ $2$ $3$ $4$", [
             WatchUi.loadResource(dayArr[now.day_of_week - 1]),
-            WatchUi.loadResource(monthArr[now.month - 1]),
             now.day.toNumber(),
+            WatchUi.loadResource(monthArr[now.month - 1]),
             now.year.toNumber(),
         ]);
 
         var battData = "[";
-        for (var i = 0; i < stat.battery.toNumber()/10; i++) { battData += "#"; }
-        for (var i = 0; i < 10-stat.battery.toNumber()/10; i++) { battData += "."; }
-        battData += "] " + stat.battery.toNumber() + " %";
+        var battLvl = (stat.battery + .5).toNumber() / 10; // da 0 a 10
+        for (var i = 0; i < battLvl; i++) { battData += "#"; }
+        for (var i = 0; i < 10 - battLvl; i++) { battData += battLvl != 10 ? "." : ""; }
+        battData += "] " + battLvl + " %";
 
         var connData = sett.phoneConnected ? WatchUi.loadResource(Rez.Strings.connected) : WatchUi.loadResource(Rez.Strings.disconnected);
         var stepData = "";
@@ -98,29 +97,38 @@ class TerminalFaceView extends WatchUi.WatchFace {
         var l_hrData = sensorsData.get("heartRate") + " bpm";
 
         //* Reference and Assigning
-        var labData = new[9];
-        var labAll  = new[9];
+        var dt = appSetting.get("isConsoleDetailShown") ? 2 : 0;
+        var sp = appSetting.get("stepViewOption") != 0 ? 1 : 0;
+        var fs = appSetting.get("flrsViewOption") != 0 ? 1 : 0;
+        var bt = appSetting.get("isBtShown") ? 1 : 0;
+        var hr = appSetting.get("isHRShown") ? 1 : 0;
+        var nValue = dt + 3 + bt + sp + fs + hr;
+
+        var labData = new[nValue];
+        var labAll  = new[nValue];
         var CIndex = 0;
 
-        labAll[CIndex] = View.findDrawableById("stLn") as Text;  
-        labData[CIndex] = consoleData + appSetting.get("consoleCommand");
-        CIndex++;
+        if (appSetting.get("isConsoleDetailShown")) {
+            labAll[CIndex] = View.findDrawableById("stLn") as Text;
+            labData[CIndex] = consoleData + appSetting.get("consoleCommand");
+            CIndex++;
+        }
         
         labAll[CIndex] = View.findDrawableById("timeLn") as Text;
-        labData[CIndex] = "[" + WatchUi.loadResource(Rez.Strings.time) + "] " + timeData;
+        labData[CIndex] = appSetting.get("isConsoleLabelShown") ? "[" + WatchUi.loadResource(Rez.Strings.time) + "] " + timeData : timeData;
         CIndex++;
 
         labAll[CIndex] = View.findDrawableById("dateLn") as Text;
-        labData[CIndex] = "[" + WatchUi.loadResource(Rez.Strings.date) + "] " + dateData;
+        labData[CIndex] = appSetting.get("isConsoleLabelShown") ? "[" + WatchUi.loadResource(Rez.Strings.date) + "] " + dateData : dateData;
         CIndex++;
 
         labAll[CIndex] = View.findDrawableById("powLn") as Text;
-        labData[CIndex] = "[" + WatchUi.loadResource(Rez.Strings.batt) + "] " + battData;
+        labData[CIndex] = appSetting.get("isConsoleLabelShown") ? "[" + WatchUi.loadResource(Rez.Strings.batt) + "] " + battData : battData;
         CIndex++;
 
         if (appSetting.get("isBtShown")) {
             labAll[CIndex] = View.findDrawableById("connLn") as Text;
-            labData[CIndex] = "[" + WatchUi.loadResource(Rez.Strings.conn) + "] " + connData;
+            labData[CIndex] = appSetting.get("isConsoleLabelShown") ? "[" + WatchUi.loadResource(Rez.Strings.conn) + "] " + connData : connData;
             CIndex++;
         }
         
@@ -133,7 +141,7 @@ class TerminalFaceView extends WatchUi.WatchFace {
                 stepData = info.steps + "/" + info.stepGoal + " " + WatchUi.loadResource(Rez.Strings.steps);
             }
 
-            labData[CIndex] = "[" + WatchUi.loadResource(Rez.Strings.step) + "] " + stepData;
+            labData[CIndex] = appSetting.get("isConsoleLabelShown") ? "[" + WatchUi.loadResource(Rez.Strings.step) + "] " + stepData : stepData;
             CIndex++;
         }
         
@@ -146,43 +154,47 @@ class TerminalFaceView extends WatchUi.WatchFace {
                 flrsData = info.floorsClimbed + "/" + info.floorsClimbedGoal + " " + WatchUi.loadResource(Rez.Strings.floors);
             }
 
-            labData[CIndex] = "[" + WatchUi.loadResource(Rez.Strings.flrs) + "] " + flrsData;
+            labData[CIndex] = appSetting.get("isConsoleLabelShown") ? "[" + WatchUi.loadResource(Rez.Strings.flrs) + "] " + flrsData : flrsData;
             CIndex++;
         }
 
-        labAll[CIndex] = View.findDrawableById("bpmLn") as Text;  
-        labData[CIndex] = "[" + WatchUi.loadResource(Rez.Strings.l_hr) + "] " + l_hrData;
-        CIndex++;
+        if (appSetting.get("isHRShown")) {
+            labAll[CIndex] = View.findDrawableById("bpmLn") as Text;  
+            labData[CIndex] = appSetting.get("isConsoleLabelShown") ? "[" + WatchUi.loadResource(Rez.Strings.l_hr) + "] " + l_hrData : l_hrData;
+            CIndex++;
+        }
 
-        labAll[CIndex] = View.findDrawableById("endLn") as Text;
-        labData[CIndex] = consoleData;
-        CIndex++;
+        if (appSetting.get("isConsoleDetailShown")) {
+            labAll[CIndex] = View.findDrawableById("endLn") as Text;
+            labData[CIndex] = consoleData;
+            CIndex++;
+        }
 
         //* SET PROPERTYES
-        for (var i = 0; i <= CIndex; i++) {
-            var spaceA = dc.getTextWidthInPixels(labData[2], Graphics.FONT_XTINY);   //date = 7 + 15
-            var spaceB = dc.getTextWidthInPixels(labData[3], Graphics.FONT_XTINY);   //batt = 7 + 17 o 18
-            var biggestSpace = spaceA > spaceB ? spaceA : spaceB;
-            var resultSpace = sett.screenWidth - biggestSpace < 0 ? 0 : (sett.screenWidth - biggestSpace) / 2;
-            
-            //! SHOULD CHANGE FONT BUT NAH
+        for (var i = 0; i < CIndex; i++) {
+            var XspaceA = dc.getTextWidthInPixels(labData[2], Graphics.FONT_XTINY);   //date = 7 + 15
+            var XspaceB = dc.getTextWidthInPixels(labData[3], Graphics.FONT_XTINY);   //batt = 7 + 13 + (1 o 2 o 3) + 2 = 23 - 25
+            var XbiggestSpace = XspaceA > XspaceB ? XspaceA : XspaceB;
+            var XresultSpace = sett.screenWidth - XbiggestSpace < 0 ? 0 : (sett.screenWidth - XbiggestSpace) / 2;
+
+            var textHeight = dc.getTextDimensions("[", Graphics.FONT_XTINY)[1];
+            var Yspacing = (sett.screenHeight - textHeight * CIndex) / (CIndex + 1);
+            var YresultSpace = Yspacing + (Yspacing + textHeight) * (i);
+
+            //! SHOULD CHANGE FONT BUT NAH NOT NOW
             // batt  0% -> 49% = Ok (date is bigger) 
             // batt 50% -> 69% = Aa (battery is bigger but doesn't clip)
             // batt 70% -> ... = Not fine (x = 0 to avoid negative x)
 
-            if ( i != 0 ) {
-                i--;
-                labAll[i].setFont(Graphics.FONT_XTINY); //*UbuntuMono
-                labAll[i].setText(labData[i]);
-                labAll[i].setLocation( 
-                    resultSpace,
-                    (((sett.screenHeight - dc.getTextDimensions("[", Graphics.FONT_XTINY)[1] * CIndex) / (CIndex + 2)) + dc.getTextDimensions("[", Graphics.FONT_XTINY)[1]) * ( i )
-                );
-                i++;
-            }
+            labAll[i].setFont(Graphics.FONT_XTINY); //*UbuntuMono
+            labAll[i].setText(labData[i]);
+            labAll[i].setLocation( 
+                XresultSpace,
+                YresultSpace
+            );
 
             // labAll[i].setJustification(Graphics.TEXT_JUSTIFY_LEFT);
-            // labAll[i].setColor(getApp().getProperty("ForegroundColor") as Number);
+            // labAll[i].setColor(Graphics.COLOR_GREEN);
         }
 
         //? Call the parent onUpdate function to redraw the layout
@@ -197,10 +209,12 @@ class TerminalFaceView extends WatchUi.WatchFace {
 
     //? The user has just looked at their watch. Timers and animations may be started here.
     function onExitSleep() as Void {
+        isSleeping = false;
     }
 
     //? Terminate any active timers and prepare for slow updates.
     function onEnterSleep() as Void {
-    }
+        isSleeping = true;
 
+    }
 }
