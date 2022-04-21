@@ -33,7 +33,7 @@
     </setting>
 
     <setting propertyKey="@Properties.isHRShown" title="@Strings.isHRShown">
-        <settingConfig type="boolean" />
+        <settingConfig type="boolean" readonly="true"/>
     </setting>
 
     <!-- *Show step / step goal -->
