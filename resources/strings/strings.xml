@@ -13,6 +13,10 @@
     <string id="isBtShown">Show the bluetooth line</string>
     <string id="isHRShown">Show the heart beat line [WIP]</string>
 
+    <string id="dateOrderOption">Select the day / month order</string>
+    <string id="dateOrderOption0">Month / day</string>
+    <string id="dateOrderOption1">Day / month</string>
+
     <string id="stepViewOption">Select the amount of step data to display</string>
     <string id="stepViewOption0">Don't display</string>
     <string id="stepViewOption1">Step count</string>

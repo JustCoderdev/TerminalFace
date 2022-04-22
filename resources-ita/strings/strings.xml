@@ -13,6 +13,10 @@
     <string id="isBtShown">Mostra la riga sulle informazioni del bluetooth</string>
     <string id="isHRShown">Mostra la riga che mostra il battito cardiaco [WIP]</string>
 
+    <string id="dateOrderOption">Seleziona l'ordine nella data (giorno / mese)</string>
+    <string id="dateOrderOption0">Mese / giorno</string>
+    <string id="dateOrderOption1">Giorno / mese</string>
+
     <string id="stepViewOption">Seleziona la quantità di dati sui passi da visualizzare</string>
     <string id="stepViewOption0">Non mostrare alcun dato</string>
     <string id="stepViewOption1">Conta dei passi</string>

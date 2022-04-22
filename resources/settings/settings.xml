@@ -6,6 +6,7 @@
     
     <!-- *Set Console detail -->
     <group id="consoleGroup" title="@Strings.consoleGroupTitle">
+    
         <setting propertyKey="@Properties.isConsoleDetailShown" title="@Strings.isConsoleDetailShown">
             <settingConfig type="boolean" />
         </setting>
@@ -34,6 +35,14 @@
 
     <setting propertyKey="@Properties.isHRShown" title="@Strings.isHRShown">
         <settingConfig type="boolean" readonly="true"/>
+    </setting>
+
+    <!-- *Day / Month - Month / Day -->
+    <setting propertyKey="@Properties.dateOrderOption" title="@Strings.dateOrderOption">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.dateOrderOption0</listEntry>
+            <listEntry value="1">@Strings.dateOrderOption1</listEntry>
+        </settingConfig>
     </setting>
 
     <!-- *Show step / step goal -->

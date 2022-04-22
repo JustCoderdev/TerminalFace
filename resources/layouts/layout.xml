@@ -1,7 +1,6 @@
 <layout id="WatchFace">
     <label id="stLn"/>
 
-
     <!-- <label id="timeLn"/>    <text-area id="timeLnData"></text-area>
     <label id="dateLn"/>    <text-area id="dateLnData"></text-area>
     <label id="powLn"/>     <text-area id="powLnData"></text-area>
@@ -13,11 +12,13 @@
     <label id="timeLn"/>    
     <label id="dateLn"/>
     <label id="powLn"/>
+
     <label id="connLn"/>
+
     <label id="stepLn"/>
     <label id="flrsLn"/>
-    <label id="bpmLn"/>
 
+    <label id="bpmLn"/>
 
     <label id="endLn"/>
 </layout>

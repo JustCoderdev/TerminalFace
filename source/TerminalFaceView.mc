@@ -78,12 +78,10 @@ class TerminalFaceView extends WatchUi.WatchFace {
             : [ time.hour - 12, time.min.format("%02d"), isSleeping ? "   " : ":" + time.sec.format("%02d"), "PM", timeZone]
         );
         
-        var dateData = Lang.format("$1$ $2$ $3$ $4$", [
-            WatchUi.loadResource(dayArr[now.day_of_week - 1]),
-            now.day.toNumber(),
-            WatchUi.loadResource(monthArr[now.month - 1]),
-            now.year.toNumber(),
-        ]);
+        var det1 = appSetting.get("dateOrderOption") == 0 ? WatchUi.loadResource(monthArr[now.month - 1]) : now.day.toNumber();
+        var det2 = appSetting.get("dateOrderOption") == 0 ? now.day.toNumber() : WatchUi.loadResource(monthArr[now.month - 1]);
+
+        var dateData = Lang.format("$1$ $2$ $3$ $4$", [ WatchUi.loadResource(dayArr[now.day_of_week - 1]), det1, det2, now.year.toNumber() ]);
 
         var battData = "[";
         var battLvl = (stat.battery + 0.5).toNumber(); // da 0 a 10
@@ -158,6 +156,9 @@ class TerminalFaceView extends WatchUi.WatchFace {
             CIndex++;
         }
 
+        System.println( appSetting.get("isConsoleLabelShown") ? "[" + WatchUi.loadResource(Rez.Strings.flrs) + "] " + flrsData : flrsData);
+        System.println( !appSetting.get("isConsoleLabelShown") ? "[" + WatchUi.loadResource(Rez.Strings.flrs) + "] " + flrsData : flrsData);
+
         if (appSetting.get("isHRShown")) {
             labAll[CIndex] = View.findDrawableById("bpmLn") as Text;  
             labData[CIndex] = appSetting.get("isConsoleLabelShown") ? "[" + WatchUi.loadResource(Rez.Strings.l_hr) + "] " + l_hrData : l_hrData;
@@ -171,14 +172,17 @@ class TerminalFaceView extends WatchUi.WatchFace {
         }
 
         //* SET PROPERTYES
-        for (var i = 0; i < CIndex; i++) {
-            var XspaceA = dc.getTextWidthInPixels(labData[2], Graphics.FONT_XTINY);   //date = 7 + 15
-            var XspaceB = dc.getTextWidthInPixels(labData[3], Graphics.FONT_XTINY);   //batt = 7 + 13 + (1 o 2 o 3) + 2 = 23 - 25
-            var XbiggestSpace = XspaceA > XspaceB ? XspaceA : XspaceB;
-            var XresultSpace = sett.screenWidth - XbiggestSpace < 0 ? 0 : (sett.screenWidth - XbiggestSpace) / 2;
+        var spaceIndex = appSetting.get("isConsoleDetailShown") ? 2 : 1;
 
-            var textHeight = dc.getTextDimensions("[", Graphics.FONT_XTINY)[1];
-            var Yspacing = (sett.screenHeight - textHeight * CIndex) / (CIndex + 1);
+        var XspaceA = dc.getTextWidthInPixels(labData[spaceIndex], Graphics.FONT_XTINY);   //date = 7 + 15
+        var XspaceB = dc.getTextWidthInPixels(labData[spaceIndex+1], Graphics.FONT_XTINY);   //batt = 7 + 13 + (1 o 2 o 3) + 2 = 23 - 25
+        var XbiggestSpace = XspaceA > XspaceB ? XspaceA : XspaceB;
+        var XresultSpace = XbiggestSpace < 0 ? 0 : (sett.screenWidth - XbiggestSpace) / 2;
+        
+        var textHeight = dc.getTextDimensions("[", Graphics.FONT_XTINY)[1];
+        var Yspacing = (sett.screenHeight - textHeight * CIndex) / (CIndex + 1);
+        
+        for (var i = 0; i < CIndex; i++) {
             var YresultSpace = Yspacing + (Yspacing + textHeight) * (i);
 
             //! SHOULD CHANGE FONT BUT NAH NOT NOW
