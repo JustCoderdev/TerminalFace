@@ -1,24 +1,16 @@
 <layout id="WatchFace">
-    <label id="stLn"/>
+    <label id="stLnData"/>
 
-    <!-- <label id="timeLn"/>    <text-area id="timeLnData"></text-area>
-    <label id="dateLn"/>    <text-area id="dateLnData"></text-area>
-    <label id="powLn"/>     <text-area id="powLnData"></text-area>
-    <label id="connLn"/>    <text-area id="connLnData"></text-area>
-    <label id="stepLn"/>    <text-area id="stepLnData"></text-area>
-    <label id="flrsLn"/>    <text-area id="flrsLnData"></text-area>
-    <label id="bpmLn"/>     <text-area id="bpmLnData"></text-area> -->
+    <label id="timeLn"/>    <label id="timeLnData"/>    
+    <label id="dateLn"/>    <label id="dateLnData"/>
+    <label id="powLn"/>     <label id="powLnData"/>
 
-    <label id="timeLn"/>    
-    <label id="dateLn"/>
-    <label id="powLn"/>
+    <label id="connLn"/>    <label id="connLnData"/>
 
-    <label id="connLn"/>
+    <label id="stepLn"/>    <label id="stepLnData"/>
+    <label id="flrsLn"/>    <label id="flrsLnData"/>
 
-    <label id="stepLn"/>
-    <label id="flrsLn"/>
+    <label id="bpmLn"/>     <label id="bpmLnData"/>
 
-    <label id="bpmLn"/>
-
-    <label id="endLn"/>
+    <label id="endLnData"/>
 </layout>

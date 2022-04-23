@@ -13,6 +13,7 @@ class TerminalFaceApp extends Application.AppBase {
         "dateOrderOption" => 0,
         "stepViewOption" => 1,
         "flrsViewOption" => 0,
+        "isCentered" => true,
         "isBtShown" => false,
         "isHRShown" => true,
     };
@@ -26,6 +27,7 @@ class TerminalFaceApp extends Application.AppBase {
         "dateOrderOption",
         "stepViewOption",
         "flrsViewOption",
+        "isCentered",
         "isBtShown",
         "isHRShown",
     ];
@@ -45,7 +47,7 @@ class TerminalFaceApp extends Application.AppBase {
 
     //? Return the initial view of your application here
     function getInitialView() as Array<Views or InputDelegates>? {
-        return [ new TerminalFaceView(appSetting) ] as Array<Views or InputDelegates>;
+        return [ new TerminalFaceView(appSetting) ];
     }
 
     //? New app settings have been received so trigger a UI update
