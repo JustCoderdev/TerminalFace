@@ -69,8 +69,11 @@ class TerminalFaceView extends WatchUi.WatchFace {
 
         //* DataFormatting
         var timeZone = "UTC"; // UTC //! TO IMPLEMENT TIMEZONE
-        var timeData = sett.is24Hour    //"02:15:55 MDT"; "2:15:55 PM MDT"? Lang.format("$1$:$2$$3$     $4$", [time.hour < 10 ? "0" + time.hour : time.hour, time.min.format("%02d"), isSleeping ? "   " : ":" + time.sec.format("%02d"), timeZone])
-        : Lang.format("$1$:$2$$3$ $4$ $5$", time.hour < 13
+        var timeData =
+        // sett.is24Hour    //"02:15:55 MDT"; "2:15:55 PM MDT"
+        // ? Lang.format("$1$:$2$$3$     $4$", [time.hour < 10 ? "0" + time.hour : time.hour, time.min.format("%02d"), isSleeping ? "   " : ":" + time.sec.format("%02d"), timeZone])
+        // : 
+        Lang.format("$1$:$2$$3$ $4$ $5$", time.hour < 13
             ? [ time.hour, time.min.format("%02d"), isSleeping ? "   " : ":" + time.sec.format("%02d"), "AM", timeZone ]
             : [ time.hour - 12, time.min.format("%02d"), isSleeping ? "   " : ":" + time.sec.format("%02d"), "PM", timeZone]
         );        
