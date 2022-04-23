@@ -3,8 +3,8 @@
     <string id="AppName">TerminalFace</string>
 
     <string id="consoleGroupTitle">Console Details</string>
-    <string id="isConsoleDetailShown">Show the console details (ex. Jc@watch:~ $ now)</string>
-    <string id="isConsoleLabelShown">Show the console themed labels (ex. [TIME]...)</string>
+    <string id="isConsoleDetailShown">Show the console details (ex. Jc@watch:~ $ now) [UT]</string>
+    <string id="isConsoleLabelShown">Show the console themed labels (ex. [TIME]...) [UT]</string>
 
     <string id="consoleUserName">Account name (ex. ...@watch:~ $ now)</string>
     <string id="consoleDeviceName">Device name (ex. Jc@...:~ $ now)</string>
@@ -27,7 +27,7 @@
     <string id="flrsViewOption1">Floors count</string>
     <string id="flrsViewOption2">Floors count and goal</string>
     
-    <string id="isColorated">Color the text</string>
+    <string id="isColorated">Color the text [UT]</string>
     
     <!--* Settings ROUND -->
     <string id="isCentered">Center the text</string>
