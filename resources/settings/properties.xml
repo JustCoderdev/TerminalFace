@@ -15,5 +15,6 @@
     <property id="stepViewOption" type="number">1</property>
     <property id="flrsViewOption" type="number">0</property>
 
+    <property id="isColorated" type="boolean">true</property>
     <property id="isCentered" type="boolean">false</property>
 </properties>

@@ -7,9 +7,9 @@ import Toybox.WatchUi;
 
 class TerminalFaceView extends WatchUi.WatchFace {
 
+    var isSleeping = false;
     // var UbuntuMono = null;
     var appSetting = null;
-    var isSleeping = false;
 
     var dayArr = [
         Rez.Strings.sun,
@@ -41,8 +41,8 @@ class TerminalFaceView extends WatchUi.WatchFace {
     };
 
     function initialize(appSetting) {
-        WatchFace.initialize();
         self.appSetting = appSetting;
+        WatchFace.initialize();
     }
 
     //? Load your resources here
@@ -79,7 +79,6 @@ class TerminalFaceView extends WatchUi.WatchFace {
         var det1 = appSetting.get("dateOrderOption") == 0 ? WatchUi.loadResource(monthArr[now.month - 1]) : now.day.toNumber();
         var det2 = appSetting.get("dateOrderOption") == 0 ? now.day.toNumber() : WatchUi.loadResource(monthArr[now.month - 1]);
         var dateData = Lang.format("$1$ $2$ $3$ $4$", [ WatchUi.loadResource(dayArr[now.day_of_week - 1]), det1, det2, now.year.toNumber() ]);
-
 
         var battData = "[";
         var battLvl = (stat.battery + 0.5).toNumber(); // da 00 a 100
@@ -207,7 +206,14 @@ class TerminalFaceView extends WatchUi.WatchFace {
                 // batt 50% -> 69% = Aa (battery is bigger but doesn't clip)
                 // batt 70% -> ... = Not fine (x = 0 to avoid negative x)
 
-                dataRef[i].setColor(dataCol[i]);
+                if (appSetting.get("isColorated")) {
+                    dataRef[i].setColor(dataCol[i]);
+
+                } else {
+                    dataRef[i].setColor(Graphics.COLOR_WHITE);
+
+                }
+
                 dataRef[i].setText(data[i]);
                 dataRef[i].setFont(cFont);
 

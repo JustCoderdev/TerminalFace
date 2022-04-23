@@ -27,6 +27,11 @@
     <string id="flrsViewOption1">Floors count</string>
     <string id="flrsViewOption2">Floors count and goal</string>
     
+    <string id="isColorated">Color the text</string>
+    
+    <!--* Settings ROUND -->
+    <string id="isCentered">Center the text</string>
+    
     <!--* UI -->
     <string id="connected">Connected</string>
     <string id="disconnected">Not Connected</string>

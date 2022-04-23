@@ -3,10 +3,9 @@
     <setting propertyKey="@Properties.appVersion" title="@Strings.AppName">
         <settingConfig type="alphaNumeric" readonly="true" />
     </setting>
-    
+
     <!-- *Set Console detail -->
     <group id="consoleGroup" title="@Strings.consoleGroupTitle">
-    
         <setting propertyKey="@Properties.isConsoleDetailShown" title="@Strings.isConsoleDetailShown">
             <settingConfig type="boolean" />
         </setting>
@@ -14,7 +13,7 @@
         <setting propertyKey="@Properties.isConsoleLabelShown" title="@Strings.isConsoleLabelShown">
             <settingConfig type="boolean" />
         </setting>
-
+    
         <setting propertyKey="@Properties.consoleUserName" title="@Strings.consoleUserName">
             <settingConfig type="alphaNumeric" required="true" />
         </setting>
@@ -35,6 +34,10 @@
 
     <setting propertyKey="@Properties.isHRShown" title="@Strings.isHRShown">
         <settingConfig type="boolean" readonly="true"/>
+    </setting>
+
+    <setting propertyKey="@Properties.isColorated" title="@Strings.isColorated">
+        <settingConfig type="boolean" />
     </setting>
 
     <!-- *Day / Month - Month / Day -->

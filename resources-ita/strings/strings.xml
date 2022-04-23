@@ -27,6 +27,11 @@
     <string id="flrsViewOption1">Conta dei piani</string>
     <string id="flrsViewOption2">Conta dei piani e obbiettivo</string>
 
+    <string id="isColorated">Colora il testo</string>
+
+    <!--* Settings ROUND -->
+    <string id="isCentered">Visualizza testo centrato</string>
+
     <!--* UI -->
     <string id="connected">Connesso</string>
     <string id="disconnected">Non Connesso</string>
