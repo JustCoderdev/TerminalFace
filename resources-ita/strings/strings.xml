@@ -3,8 +3,8 @@
     <string id="AppName">TerminalFace</string>
 
     <string id="consoleGroupTitle">Dettagli della console</string>
-    <string id="isConsoleDetailShown">Mostra i dettagli tipici di una console (es. Jc@watch:~ $ now)</string>
-    <string id="isConsoleLabelShown">Mostra le etichette tipiche di una console (es. [ORA]...)</string>
+    <string id="isConsoleDetailShown">Mostra i dettagli tipici di una console (es. Jc@watch:~ $ now) [UT]</string>
+    <string id="isConsoleLabelShown">Mostra le etichette tipiche di una console (es. [ORA]...) [UT]</string>
 
     <string id="consoleUserName">Il nome dell account (es. ...@watch:~ $ now)</string>
     <string id="consoleDeviceName">Il nome del dispositivo (es. Jc@...:~ $ now)</string>
@@ -27,7 +27,7 @@
     <string id="flrsViewOption1">Conta dei piani</string>
     <string id="flrsViewOption2">Conta dei piani e obbiettivo</string>
 
-    <string id="isColorated">Colora il testo</string>
+    <string id="isColorated">Colora il testo [UT]</string>
 
     <!--* Settings ROUND -->
     <string id="isCentered">Visualizza testo centrato</string>
