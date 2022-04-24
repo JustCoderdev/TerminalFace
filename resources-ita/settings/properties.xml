@@ -1,0 +1,8 @@
+<properties>
+    <property id="consoleUserName" type="string">Jc</property>
+    <property id="consoleCommand" type="string">info</property>
+    <property id="consoleDeviceName" type="string">orologio</property>
+
+    <property id="dateOrderOption" type="number">1</property>
+    <property id="dateFormatOption" type="number">1</property>
+</properties>

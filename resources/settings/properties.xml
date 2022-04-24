@@ -1,5 +1,5 @@
 <properties>
-    <property id="appVersion" type="string">0.5.1</property>
+    <property id="appVersion" type="string">0.5.3</property>
 
     <property id="isConsoleDetailShown" type="boolean">true</property>
     <property id="isConsoleLabelShown" type="boolean">true</property>
@@ -11,10 +11,12 @@
     <property id="isBtShown" type="boolean">false</property>
     <property id="isHRShown" type="boolean">false</property>
 
-    <property id="dateOrderOption" type="number">0</property>
-    <property id="stepViewOption" type="number">1</property>
-    <property id="flrsViewOption" type="number">0</property>
-
     <property id="isColorated" type="boolean">true</property>
     <property id="isCentered" type="boolean">false</property>
+
+    <property id="dateOrderOption" type="number">0</property>
+    <property id="dateFormatOption" type="number">0</property>
+
+    <property id="stepViewOption" type="number">1</property>
+    <property id="flrsViewOption" type="number">0</property>
 </properties>

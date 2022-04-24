@@ -1,8 +1,0 @@
-<settings>
-
-    <!-- *Show centered -->
-    <setting propertyKey="@Properties.isCentered" title="@Strings.isBtShown">
-        <settingConfig type="boolean" />
-    </setting>
-
-</settings>

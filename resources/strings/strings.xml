@@ -12,10 +12,17 @@
 
     <string id="isBtShown">Show the bluetooth line</string>
     <string id="isHRShown">Show the heart beat line [WIP]</string>
+    
+    <string id="isColorated">Color the text</string>
+    <string id="isCentered">Center the text</string>
 
     <string id="dateOrderOption">Select the day / month order</string>
     <string id="dateOrderOption0">Month / day</string>
     <string id="dateOrderOption1">Day / month</string>
+
+    <string id="dateFormatOption">Select the time format (12 / 24)</string>
+    <string id="dateFormatOption0">12 hour</string>
+    <string id="dateFormatOption1">24 hour</string>
 
     <string id="stepViewOption">Select the amount of step data to display</string>
     <string id="stepViewOption0">Don't display</string>
@@ -26,11 +33,6 @@
     <string id="flrsViewOption0">Don't display</string>
     <string id="flrsViewOption1">Floors count</string>
     <string id="flrsViewOption2">Floors count and goal</string>
-    
-    <string id="isColorated">Color the text [UT]</string>
-    
-    <!--* Settings ROUND -->
-    <string id="isCentered">Center the text</string>
     
     <!--* UI -->
     <string id="connected">Connected</string>

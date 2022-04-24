@@ -36,15 +36,27 @@
         <settingConfig type="boolean" readonly="true"/>
     </setting>
 
+    <!-- *Text properties -->
     <setting propertyKey="@Properties.isColorated" title="@Strings.isColorated">
         <settingConfig type="boolean" />
     </setting>
 
-    <!-- *Day / Month - Month / Day -->
+    <setting propertyKey="@Properties.isCentered" title="@Strings.isCentered">
+        <settingConfig type="boolean" />
+    </setting>
+
+    <!-- *Date properties -->
     <setting propertyKey="@Properties.dateOrderOption" title="@Strings.dateOrderOption">
         <settingConfig type="list">
             <listEntry value="0">@Strings.dateOrderOption0</listEntry>
             <listEntry value="1">@Strings.dateOrderOption1</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.dateFormatOption" title="@Strings.dateFormatOption">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.dateFormatOption0</listEntry>
+            <listEntry value="1">@Strings.dateFormatOption1</listEntry>
         </settingConfig>
     </setting>
 

@@ -67,16 +67,11 @@ class TerminalFaceView extends WatchUi.WatchFace {
         var stat = System.getSystemStats();
         var time = System.getClockTime();
 
-        //* DataFormatting
-        var timeZone = "UTC"; // UTC //! TO IMPLEMENT TIMEZONE
-        var timeData =
-        // sett.is24Hour    //"02:15:55 MDT"; "2:15:55 PM MDT"
-        // ? Lang.format("$1$:$2$$3$     $4$", [time.hour < 10 ? "0" + time.hour : time.hour, time.min.format("%02d"), isSleeping ? "   " : ":" + time.sec.format("%02d"), timeZone])
-        // : 
-        Lang.format("$1$:$2$$3$ $4$ $5$", time.hour < 13
-            ? [ time.hour, time.min.format("%02d"), isSleeping ? "   " : ":" + time.sec.format("%02d"), "AM", timeZone ]
-            : [ time.hour - 12, time.min.format("%02d"), isSleeping ? "   " : ":" + time.sec.format("%02d"), "PM", timeZone]
-        );        
+        //* Data formatting
+        var timeZone = ""; // " UTC" //! TO IMPLEMENT TIMEZONE
+        var timeData = appSetting.get("dateFormatOption") == 0  //"02:15:55 MDT"; "2:15:55 PM MDT"
+        ? Lang.format("$1$:$2$$3$ $4$$5$", time.hour < 13 ? [ time.hour, time.min.format("%02d"), isSleeping ? "" : ":" + time.sec.format("%02d"), "AM", timeZone ] : [ time.hour - 12, time.min.format("%02d"), isSleeping ? "" : ":" + time.sec.format("%02d"), "PM", timeZone ])
+        : Lang.format("$1$:$2$$3$$4$", [time.hour < 10 ? "0" + time.hour : time.hour, time.min.format("%02d"), isSleeping ? "" : ":" + time.sec.format("%02d"), timeZone]);
 
         var det1 = appSetting.get("dateOrderOption") == 0 ? WatchUi.loadResource(monthArr[now.month - 1]) : now.day.toNumber();
         var det2 = appSetting.get("dateOrderOption") == 0 ? now.day.toNumber() : WatchUi.loadResource(monthArr[now.month - 1]);
@@ -163,7 +158,6 @@ class TerminalFaceView extends WatchUi.WatchFace {
             sensorsData.get("heartRate") > 110 ? Graphics.COLOR_RED : sensorsData.get("heartRate") < 60 ? Graphics.COLOR_RED : Graphics.COLOR_GREEN,     //hb
             Graphics.COLOR_WHITE,
         ];
-        
 
         //* Reference and Assigning
         var dt = appSetting.get("isConsoleDetailShown") ? 2 : 0;
@@ -175,19 +169,22 @@ class TerminalFaceView extends WatchUi.WatchFace {
 
         //* SET PROPERTYES
         var cFont = Graphics.FONT_XTINY; //*UbuntuMono
+        // var cFont = UbuntuMono;
         var charHeight = dc.getTextDimensions("@", cFont)[1];
-        var charWidth = dc.getTextWidthInPixels("@", cFont);
+        // var charWidth = dc.getTextWidthInPixels("@", cFont);
         var CIndex = 9;
 
-        var XspaceDate = charWidth * ( appSetting.get("isConsoleLabelShown") ? (lab[1].length() + data[1].length()) : data[1].length() );        //date = 7 + 14
-        var XspaceBatt = charWidth * ( appSetting.get("isConsoleLabelShown") ? (lab[2].length() + data[2].length()) : data[2].length() );        //batt = 7 + 12 + (1 o 2 o 3) + 2 = 22 - 24
+        // var XspaceDate = charWidth * ( appSetting.get("isConsoleLabelShown") ? (lab[1].length() + data[1].length()) : data[1].length() ); //date = 7 + 14
+        // var XspaceBatt = charWidth * ( appSetting.get("isConsoleLabelShown") ? (lab[2].length() + data[2].length()) : data[2].length() ); //batt = 7 + 12 + (1 o 2 o 3) + 2 = 22 - 24
+        var XspaceDate = dc.getTextWidthInPixels(appSetting.get("isConsoleLabelShown") ? lab[1] + data[1] : data[1], cFont);    
+        var XspaceBatt = dc.getTextWidthInPixels(appSetting.get("isConsoleLabelShown") ? lab[2] + data[2] : data[2], cFont);
 
         var XbiggestSpace = XspaceDate > XspaceBatt ? XspaceDate : XspaceBatt;
-        var XleftResultSpace = (sett.screenWidth - XbiggestSpace) / 2 < 0 ? 0 : (sett.screenWidth - XbiggestSpace) / 2;
-        
+        var XleftResultSpace = (sett.screenWidth - XbiggestSpace) / 2 < 1 ? 0 : (sett.screenWidth - XbiggestSpace) / 2;
+
         var Yspacing = (sett.screenHeight - charHeight * nValue) / (nValue + 1);
         var yield = 0;
-        
+
         for (var i = 0; i < CIndex; i++) {
             if (!appSetting.get("isConsoleDetailShown") && i == 0) { yield--;}
             else if (!appSetting.get("isBtShown") && i == 4) { yield--; }
@@ -195,7 +192,9 @@ class TerminalFaceView extends WatchUi.WatchFace {
             else if (!(appSetting.get("flrsViewOption") != 0) && i == 6) { yield--; }
             else if (!appSetting.get("isHRShown") && i == 7) { yield--; }
             else {
-                var XresultSpace = appSetting.get("isCentered") ? (sett.screenWidth - dc.getTextWidthInPixels((appSetting.get("isConsoleLabelShown") ? lab[i] + data[i] : data[i] ), cFont)) / 2 : XleftResultSpace;
+                var XresultSpace = appSetting.get("isCentered")
+                    ? (sett.screenWidth - dc.getTextWidthInPixels((appSetting.get("isConsoleLabelShown") ? lab[i] + data[i] : data[i] ), cFont)) / 2
+                    : XleftResultSpace;
                 var YresultSpace = Yspacing + (Yspacing + charHeight) * yield;
 
                 //! SHOULD CHANGE FONT BUT NAH NOT NOW
@@ -203,26 +202,17 @@ class TerminalFaceView extends WatchUi.WatchFace {
                 // batt 50% -> 69% = Aa (battery is bigger but doesn't clip)
                 // batt 70% -> ... = Not fine (x = 0 to avoid negative x)
 
-                if (appSetting.get("isColorated")) {
-                    dataRef[i].setColor(dataCol[i]);
-
-                } else {
-                    dataRef[i].setColor(Graphics.COLOR_WHITE);
-
-                }
-
+                dataRef[i].setColor(appSetting.get("isColorated") ? dataCol[i] : Graphics.COLOR_WHITE);
                 dataRef[i].setText(data[i]);
                 dataRef[i].setFont(cFont);
 
                 if ( i == 0 || i == CIndex - 1 ) {
-                    
                     dataRef[i].setLocation( 
                         XresultSpace,
                         YresultSpace
                     );
 
                 } else {
-                    
                     if (appSetting.get("isConsoleLabelShown")) {
                         labRef[i].setText(lab[i]);
                         labRef[i].setFont(cFont);
@@ -243,7 +233,6 @@ class TerminalFaceView extends WatchUi.WatchFace {
                         );
                     }
                 }
-
             }
             yield++;
         }

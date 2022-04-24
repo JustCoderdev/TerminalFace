@@ -13,9 +13,16 @@
     <string id="isBtShown">Mostra la riga sulle informazioni del bluetooth</string>
     <string id="isHRShown">Mostra la riga che mostra il battito cardiaco [WIP]</string>
 
+    <string id="isColorated">Colora il testo</string>
+    <string id="isCentered">Visualizza testo centrato</string>
+
     <string id="dateOrderOption">Seleziona l'ordine nella data (giorno / mese)</string>
     <string id="dateOrderOption0">Mese / giorno</string>
     <string id="dateOrderOption1">Giorno / mese</string>
+    
+    <string id="dateFormatOption">Seleziona il formato del tempo (12 / 24)</string>
+    <string id="dateFormatOption0">12 ore</string>
+    <string id="dateFormatOption1">24 ore</string>
 
     <string id="stepViewOption">Seleziona la quantità di dati sui passi da visualizzare</string>
     <string id="stepViewOption0">Non mostrare alcun dato</string>
@@ -26,11 +33,6 @@
     <string id="flrsViewOption0">Non mostrare alcun dato</string>
     <string id="flrsViewOption1">Conta dei piani</string>
     <string id="flrsViewOption2">Conta dei piani e obbiettivo</string>
-
-    <string id="isColorated">Colora il testo [UT]</string>
-
-    <!--* Settings ROUND -->
-    <string id="isCentered">Visualizza testo centrato</string>
 
     <!--* UI -->
     <string id="connected">Connesso</string>
