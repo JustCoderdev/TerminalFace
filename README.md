@@ -14,25 +14,25 @@ the color stay green, it turn red if it goes too high or too low)
 
 In the setting you can customize:
 
-* the console appereance: (Jc@watch:~ $ now)
+- the console appereance: (Jc@watch:~ $ now) \
 like:
-- show console style label ([TIME])
-- show console details (Jc@watch:~ $ now)
-- name of the user (Jc)
-- name of the device (watch)
-- command (now)
-- show the bluetooth status ([CONN] Disconnected)
-- show the current heart beat [WIP] (disabled)
-- set the text justification
-- color the text or left it white
-- set the hour format 12/24
-- set the day / month order
+  - show console style label ([TIME])
+  - show console details (Jc@watch:~ $ now)
+  - name of the user (Jc)
+  - name of the device (watch)
+  - command (now)
+  - show the bluetooth status ([CONN] Disconnected)
+  - show the current heart beat [WIP] (disabled)
+  - set the text justification
+  - color the text or left it white
+  - set the hour format 12/24
+  - set the day / month order
 
-* the step and floors view options
+- the step and floors view options \
 like:
-- Don't display
-- Display current
-- Display current and goal
+  - Don't display
+  - Display current
+  - Display current and goal
 
 NOTE:
 - Garming is having problem with some boolean value, for now i can only mark them [UT] we can only hope they are going to resolve soon
